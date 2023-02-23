@@ -29,25 +29,25 @@
 
 /* pages */
 
-/* hotel page */
-@import url('./pages/page-hotel/header.css');
-@import url('./pages/page-hotel/hero.css');
-@import url('./pages/page-hotel/double-room.css');
-@import url('./pages/page-hotel/triple-room.css');
-@import url('./pages/page-hotel/four-seater-room.css');
-@import url('./pages/page-hotel/footer.css');
+/* hotel  */
+@import url('./layout/pages/hotel/header.css');
+@import url('./layout/pages/hotel/hero.css');
+@import url('./layout/pages/hotel/double-room.css');
+@import url('./layout/pages/hotel/triple-room.css');
+@import url('./layout/pages/hotel/four-seater-room.css');
+@import url('./layout/pages/hotel/footer.css');
 
 
-/* restaurant page */
-@import url('./pages/page-restaurant/header.css');
-@import url('./pages/page-restaurant/hero.css');
-@import url('./pages/page-restaurant/about.css');
-@import url('./pages/page-restaurant/restaurant-menu.css');
-@import url('./pages/page-restaurant/footer.css');
+/* restaurant */
+@import url('./layout/pages/restaurant/header.css');
+@import url('./layout/pages/restaurant/hero.css');
+@import url('./layout/pages/restaurant/about.css');
+@import url('./layout/pages/restaurant/restaurant-menu.css');
+@import url('./layout/pages/restaurant/footer.css');
 
 
-/* room page */
-@import url('./pages/page-room/header.css');
-@import url('./pages/page-room/hero.css');
-@import url('./pages/page-room/amenities.css');
-@import url('./pages/page-room/footer.css');
+/* room  */
+@import url('./layout/pages/room/header.css');
+@import url('./layout/pages/room/hero.css');
+@import url('./layout/pages/room/amenities.css');
+@import url('./layout/pages/room/footer.css');
