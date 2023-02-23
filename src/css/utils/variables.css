@@ -1,1 +1,9 @@
-/*  */
+/* roots */
+:root {
+    --section-colors-one: #121212;
+    --section-colors-second: #D8D8D8;
+    --mobile-color: #FFFFFF;
+    --primary-text-color: #F6F6F6;
+    --toptitle-text-color: #F7F7F7;
+    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+}
