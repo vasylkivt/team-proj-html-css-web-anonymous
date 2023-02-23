@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template-vite",
+  "name": "team-proj-html-css-web-anonymous",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template-vite/",
+    "build": "vite build --base=/team-proj-html-css-web-anonymous/",
     "preview": "vite preview"
   },
   "devDependencies": {
