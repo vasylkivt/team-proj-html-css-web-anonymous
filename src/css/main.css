@@ -6,22 +6,46 @@
 */
 
 
+/* utils */
 @import url('./utils/variables.css');
 
-
+/* base */
 @import url('./base/fonts.css');
 @import url('./base/reset.css');
 @import url('./base/common.css');
 
-
+/* components */
 @import url('./components/container.css');
 
-
+/* main page */
 @import url('./layout/header.css');
 @import url('./layout/hero.css');
+@import url('./layout/about.css');
+@import url('./layout/restaurant.css');
+@import url('./layout/welcome.css');
+@import url('./layout/hotel.css');
+@import url('./layout/location.css');
 @import url('./layout/footer.css');
 
+/* hotel page */
+@import url('./pages/page-hotel/header.css');
+@import url('./pages/page-hotel/hero.css');
+@import url('./pages/page-hotel/double-room.css');
+@import url('./pages/page-hotel/triple-room.css');
+@import url('./pages/page-hotel/four-seater-room.css');
+@import url('./pages/page-hotel/footer.css');
 
 
+/* restaurant page */
+@import url('./pages/page-restaurant/header.css');
+@import url('./pages/page-restaurant/hero.css');
+@import url('./pages/page-restaurant/about.css');
+@import url('./pages/page-restaurant/restaurant-menu.css');
+@import url('./pages/page-restaurant/footer.css');
 
 
+/* room page */
+@import url('./pages/page-room/header.css');
+@import url('./pages/page-room/hero.css');
+@import url('./pages/page-room/amenities.css');
+@import url('./pages/page-room/footer.css');
