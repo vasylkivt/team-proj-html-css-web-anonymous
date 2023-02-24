@@ -1,1 +1,16 @@
-/*  */
+/* roots */
+:root {
+    --background-color-dark: #121212;
+    --background-color-light: #F6F6F6;
+    --background-color-header: #FFFFFF;
+    --title-color-light: #F7F7F7;
+    --title-color-dark: #121212;
+    --suptitle-color-gray: #484848;
+    --text-color-modal: #D8D7D7;
+    --text-color-rating: #575757;
+    --text-color-restaurant-menu: rgba(216, 215, 215, 0.5);
+    --accent-color-dark: #121212;
+    --accent-color-light: #F7F7F7;
+    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+    --font-family: 'DM Sans', sans-serif;
+}
