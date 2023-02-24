@@ -16,7 +16,17 @@
 
 /* components */
 @import url('./components/btn-modal.css');
+@import url('./components/menu-navigation.css');
 @import url('./components/container.css');
+@import url('./components/socials-icon.css');
+@import url('./components/visually-hidden.css');
+
+
+
+/* modal-windows */
+@import url('./layout/modal-windows/book-a-room.css');
+@import url('./layout/modal-windows/book-a-table.css');
+@import url('./layout/modal-windows/prices-per-room.css');
 
 /* layout */
 @import url('./layout/header.css');
