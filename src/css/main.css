@@ -15,6 +15,7 @@
 @import url('./base/common.css');
 
 /* components */
+@import url('./components/btn-modal.css');
 @import url('./components/menu-navigation.css');
 @import url('./components/container.css');
 @import url('./components/socials-icon.css');
