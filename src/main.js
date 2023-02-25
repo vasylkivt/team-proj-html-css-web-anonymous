@@ -1,1 +1,1 @@
-import './js/js-test'
+import './js/slider'
