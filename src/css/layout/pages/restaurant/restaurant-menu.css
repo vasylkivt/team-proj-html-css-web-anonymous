@@ -1,10 +1,8 @@
-/*  */
-.container {
-    max-width: 428px;
-}
-
+/* restaurant-menu */
 .restaurant-menu {
     background-color: var(--background-color-dark);
+    padding-top: 20px;
+    padding-bottom: 64px;
 }
 
 .restaurant-menu-title {
@@ -14,6 +12,12 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: var(--title-color-light);
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.restaurant-menu-blocks {
+    margin-bottom: 36px;
 }
 
 .restaurant-menu-suptitle {
@@ -24,10 +28,7 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: var(--title-color-light);
-}
-
-.restaurant-menu-list {
-    list-style: inside;
+    margin-bottom: 32px;
 }
 
 .restaurant-menu-item-one {
@@ -42,6 +43,10 @@
 .restaurant-menu-item {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.restaurant-menu-text {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
@@ -49,7 +54,8 @@
     color: var(--title-color-light);
 }
 
-.restaurant-menu-text {
+.restaurant-menu-list-ingredients {
+    font-family: 'Geometria';
     font-weight: 400;
     max-width: 233px;
     font-size: 10px;
@@ -73,23 +79,49 @@
     color: var(--text-color-modal);
 }
 
-.restaurant-menu-div {
+.restaurant-menu-wrap-meals {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 8px;
 }
 
+.restaurant-menu-btn {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: var(--text-color-light);
+    background-color: var(--background-color-dark);
+    border: 0.8px solid var(--text-color-light);
+    border-radius: 32px;
+    margin-top: 40px;
+    padding: 8px 18px;
+    transition-property: background-color, color, border;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic);
+}
 
-.restaurant-menu-line {
+.restaurant-menu-btn:hover,
+.restaurant-menu-btn:focus {
+    background-color: var(--background-color-header);
+    color: var(--accent-color-dark);
+    border: 0.8px solid var(--accent-color-light);
+}
+
+.restaurant-menu-divider {
     position: relative;
     color: rgb(77, 77, 77);
+    padding: 6px 0px;
 }
 
-.restaurant-menu-line::after {
+.restaurant-menu-divider::after {
     content: "";
     text-decoration: underline;
     display: block;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     width: 100%;
     height: 1px;
     background: rgb(77, 77, 77);
