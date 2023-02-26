@@ -1,1 +1,130 @@
-/*  */
+/* restaurant-menu */
+.restaurant-menu {
+    background-color: var(--background-color-dark);
+    padding-top: 20px;
+    padding-bottom: 64px;
+}
+
+.restaurant-menu-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--title-color-light);
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.restaurant-menu-blocks {
+    margin-bottom: 36px;
+}
+
+.restaurant-menu-suptitle {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--title-color-light);
+    margin-bottom: 32px;
+}
+
+.restaurant-menu-item-one {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--title-color-light);
+}
+
+.restaurant-menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.restaurant-menu-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--title-color-light);
+}
+
+.restaurant-menu-list-ingredients {
+    font-family: 'Geometria';
+    font-weight: 400;
+    max-width: 233px;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.18em;
+    color: var(--text-color-restaurant-menu);
+}
+
+.restaurant-menu-price {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--title-color-light);
+}
+
+.restaurant-menu-grams {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    color: var(--text-color-modal);
+}
+
+.restaurant-menu-wrap-meals {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.restaurant-menu-btn {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: var(--text-color-light);
+    background-color: var(--background-color-dark);
+    border: 0.8px solid var(--text-color-light);
+    border-radius: 32px;
+    margin-top: 40px;
+    padding: 8px 18px;
+    transition-property: background-color, color, border;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic);
+}
+
+.restaurant-menu-btn:hover,
+.restaurant-menu-btn:focus {
+    background-color: var(--background-color-header);
+    color: var(--accent-color-dark);
+    border: 0.8px solid var(--accent-color-light);
+}
+
+.restaurant-menu-divider {
+    position: relative;
+    color: rgb(77, 77, 77);
+    padding: 6px 0px;
+}
+
+.restaurant-menu-divider::after {
+    content: "";
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+    height: 1px;
+    background: rgb(77, 77, 77);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 2px;
+}
