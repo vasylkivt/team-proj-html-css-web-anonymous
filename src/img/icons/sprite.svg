@@ -10,7 +10,7 @@
 <path  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.88" d="M8 12l8 8 8-8"></path>
 </symbol>
 <symbol id="close-x" viewBox="0 0 32 32">
-<path  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8" d="M22.667 9.333l-13.333 13.333M9.333 9.333l13.333 13.333"></path>
+<path  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M24 8l-16 16M8 8l16 16"></path>
 </symbol>
 <symbol id="facebook" viewBox="0 0 32 32">
 <path  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M24 2.667h-4c-1.768 0-3.464 0.702-4.714 1.953s-1.953 2.946-1.953 4.714v4h-4v5.333h4v10.667h5.333v-10.667h4l1.333-5.333h-5.333v-4c0-0.354 0.141-0.693 0.391-0.943s0.589-0.391 0.943-0.391h4v-5.333z"></path>
