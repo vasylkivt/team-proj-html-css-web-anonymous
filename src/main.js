@@ -1,1 +1,3 @@
-import './js/slider'
+import 'animate.css';
+
+import './js/slider';
