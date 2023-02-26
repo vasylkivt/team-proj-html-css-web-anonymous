@@ -1,4 +1,4 @@
-.btn-modal {
+.button {
     display: block;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (min-width: 768px) {
-.btn-modal{
+.button{
 line-height: 1.71;
 padding-right: 24px;
   padding-left: 24px;
@@ -22,7 +22,7 @@ padding-right: 24px;
 }
 
 @media screen and (min-width: 1440px) {
-.hero-title{
+.button{
  font-size: 18px;
 line-height: 1.33;
 padding-top: 9px;
