@@ -134,9 +134,13 @@ align-items: center;
   background-color: transparent;
 }
 
-.btns-mobile-menu-main,.socials-icon-main {
-  fill: transparent;
+.btns-mobile-menu-main{
+ fill: transparent;
   stroke: var(--accent-color-light);
+}
+.socials-icon-main {
+  fill: transparent;
+  stroke: var(--accent-color-dark);
 }
 
 .logo-top-main,
@@ -160,4 +164,12 @@ align-items: center;
   height: 4px;
   border-radius: 50%;
   background: var(--title-color-light);
+}
+
+.mobile-menu {
+
+
+  background-color: var(--background-color-light);
+
+  
 }
