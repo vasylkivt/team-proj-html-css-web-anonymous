@@ -1,5 +1,4 @@
 .header {
-  
   width: 100%;
   height: 78px;
   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
@@ -17,9 +16,20 @@
   display: none;
 }
 
-.btn-burger-menu {
-  fill: transparent;
-  stroke: var(--title-color-dark);
+.btn-burger-menu,
+.btn-close-x {
+  display: none;
+}
+
+@media screen and (max-width: 1439px) {
+  .btns-mobile-menu {
+    display: block;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    fill: transparent;
+    stroke: var(--title-color-dark);
+  }
 }
 
 .logo {
@@ -29,25 +39,29 @@
   flex-direction: column;
   align-items: center;
 
- 
   transform: translateX(-50%);
 }
 
 .logo-top {
-   letter-spacing: 0.18em;
-  text-transform: uppercase;
   color: var(--title-color-dark);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.57;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
 .logo-bottom {
-   letter-spacing: 0.18em;
-  text-transform: uppercase;
   color: var(--title-color-dark);
   font-size: 6px;
   line-height: 1.33;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.btns-mobile-menu{
+  display: flex;
+align-items: center;
 }
 
 .socials-list {
@@ -82,9 +96,10 @@
   .nav {
     display: flex;
   }
-  .btn-burger-menu {
+  .btns-mobile-menu{
     display: none;
   }
+
   .nav-link {
     position: relative;
     color: var(--title-color-dark);
@@ -115,27 +130,23 @@
 /* main */
 
 .header-main {
+  position: absolute;
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
   background-color: transparent;
-  position: absolute;
 }
 
-.btn-burger-menu-main {
+.btns-mobile-menu-main,.socials-icon-main {
   fill: transparent;
   stroke: var(--accent-color-light);
 }
 
-.logo-top-main {
+.logo-top-main,
+.nav-link-main {
   color: var(--accent-color-light);
 }
 
 .logo-bottom-main {
   color: #d8d7d7;
-}
-
-.socials-icon-main {
-  fill: transparent;
-  stroke: var(--accent-color-light);
 }
 
 .corrent-main::after {
@@ -150,7 +161,4 @@
   height: 4px;
   border-radius: 50%;
   background: var(--title-color-light);
-}
-.nav-link-main {
-  color: var(--accent-color-light);
 }

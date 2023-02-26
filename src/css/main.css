@@ -28,6 +28,10 @@
 @import url('./layout/modal-windows/book-a-table.css');
 @import url('./layout/modal-windows/prices-per-room.css');
 
+/* mobile-menu */
+@import url('./layout/modal-windows/mobile-menu.css');
+
+
 /* layout */
 @import url('./layout/header.css');
 @import url('./layout/hero.css');
