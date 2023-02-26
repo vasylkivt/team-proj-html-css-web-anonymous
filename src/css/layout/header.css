@@ -140,6 +140,11 @@ align-items: center;
 }
 .socials-icon-main {
   fill: transparent;
+  stroke: var(--accent-color-light);
+}
+
+.socials-icon {
+  fill: transparent;
   stroke: var(--accent-color-dark);
 }
 
@@ -166,10 +171,3 @@ align-items: center;
   background: var(--title-color-light);
 }
 
-.mobile-menu {
-
-
-  background-color: var(--background-color-light);
-
-  
-}

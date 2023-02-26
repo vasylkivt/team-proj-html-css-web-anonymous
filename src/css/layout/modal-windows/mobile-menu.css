@@ -1,7 +1,7 @@
 @media screen and (max-width:1439px) {
-  
+
 .mobile-menu {
- 
+ z-index: 99;
   position: fixed;
   top: 78px;
   display: flex;
@@ -14,10 +14,9 @@
   transition: transform 250ms var(--cubic);
 }
 
-.mobile-menu-main{
+  .mobile-menu-main{
    background-color: var(--background-color-dark);
 }
-
 
 
 .btns-mobile-menu .btn-close {
@@ -51,6 +50,11 @@
   text-transform: uppercase;
 }
 
+.mobile-menu-nav-link-main{
+  color: var(--accent-color-light);
+
+}
+
 @media screen and (max-width: 767px) {
   .mobile-menu-nav-link {
     font-size: 28px;
@@ -70,5 +74,10 @@
     margin-bottom: 24px;
     margin-left: 20px;
   }
+
+  .socials-icon-main {
+  fill: transparent;
+  stroke: var(--accent-color-light);
+}
 }
 }
