@@ -11,10 +11,26 @@
       your day right. Our spacious bathrooms feature luxurious toiletries and
       towels, so you can pamper yourself in complete privacy.
     </p>
-    <img
-      src="./img/page-home/welcome-complex/mobile/welcome-mob-1-1x-min.jpg "
-      alt="complex"
-      srcset="./img/page-home/welcome-complex/mobile/welcome-mob-1-1x-min.jpg 1х, ./img/page-home/welcome-complex/mobile/welcome-mob-1-2x-min.jpg 2х"
-    />
+    <picture>
+      <source
+        srcset="
+          ./img/page-home/welcome-complex/desctop/welcome-desk-1-1x-min.jpg 1x,
+          ./img/page-home/welcome-complex/desctop/welcome-desk-1-2x-min.jpg 2x
+        "
+        media="min-width:1440px"
+      />
+      <source
+        srcset="
+          ./img/page-home/welcome-complex/tablet/welcome-tabl-1-1x-min.jpg 1x,
+          ./img/page-home/welcome-complex/tablet/welcome-tabl-1-2x-min.jpg 2x
+        "
+        media="min-width:768px"
+      />
+      <img
+        src="./img/page-home/welcome-complex/mobile/welcome-mob-1-1x-min.jpg "
+        alt="complex"
+        srcset="./img/page-home/welcome-complex/mobile/welcome-mob-1-2x-min.jpg 2х"
+      />
+    </picture>
   </div>
 </section>
