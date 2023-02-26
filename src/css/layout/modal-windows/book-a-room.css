@@ -10,6 +10,12 @@
   background: rgba(46, 47, 66, 0.4);
 }
 
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+} 
+
 .book-room-modal {
   position: absolute;
   top: 50%;
@@ -21,7 +27,7 @@
   width: 335px;
   height: 636px;
   transform: translate(-50%, -50%);
-  background-color: #121212;
+  background-color: var(--background-color-dark);
   border-radius: 2px;
 }
 
@@ -37,7 +43,7 @@
   width: 28px;
   height: 28px;
   background-color: transparent;
-  stroke: #f6f6f6;
+  stroke: var(--accent-color-light);
   border: none;
   cursor: pointer;
 }
@@ -51,7 +57,7 @@
 
   margin-bottom: 40px;
 
-  color: #f7f7f7;
+  color: var(--accent-color-light);
 }
 
 .book-room-modal-list {
@@ -68,7 +74,7 @@
   letter-spacing: 0.18em;
   text-transform: uppercase;
 
-  color: #d8d7d7;
+  color: var(--text-color-modal);
 }
 
 @media screen and (min-width: 768px) {
@@ -88,6 +94,15 @@
   .book-room-modal-item {
     flex-basis: calc((100% - 32px) / 2);
   }
+
+  .book-room-modal-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .current-font-style {
+    font-style: italic;
+  }
 }
 
 .book-room-modal-input {
@@ -102,7 +117,7 @@
   outline: none;
   border: none;
   border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
-  color: #f7f7f7;
+  color: var(--accent-color-light);
 
   font-weight: 500;
   font-size: 14px;
@@ -120,7 +135,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
 
-  color: #f7f7f7;
+  color: var(--accent-color-light);
 }
 
 .book-room-modal-select {
@@ -138,7 +153,7 @@
   border: none;
   border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
   background-color: transparent;
-  color: #f7f7f7;
+  color: var(--accent-color-light);
 
   font-weight: 500;
   font-size: 14px;
@@ -147,11 +162,12 @@
 }
 
 .book-room-modal-select option {
-  background-color: #121212;
+  background-color: var(--background-color-dark);
 }
 
 .modal-icon-wrap {
   position: relative;
+  display: block;
 }
 
 .modal-select-icon {
@@ -159,6 +175,7 @@
   top: 0;
   right: 0;
   pointer-events: none;
+  stroke: white;
 }
 
 input[type='date']::-webkit-calendar-picker-indicator {
@@ -175,21 +192,4 @@ input[type='date']::-webkit-calendar-picker-indicator {
 
 .book-room-modal-button-wrap {
   text-align: center;
-}
-
-.book-room-modal-button {
-  display: inline-block;
-  margin: 0 auto;
-  width: 235px;
-  height: 46px;
-  border: 0.8px solid #f7f7f7;
-  border-radius: 32px;
-
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-
-  background-color: transparent;
-  color: #f7f7f7;
 }
