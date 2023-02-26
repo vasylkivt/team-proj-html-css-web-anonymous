@@ -1,4 +1,5 @@
 .header {
+  position: absolute;
   width: 100%;
   height: 78px;
   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
@@ -115,7 +116,7 @@
 
 .header-main {
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
-  background-color: #121212;
+  background-color: transparent;
 }
 
 .btn-burger-menu-main {
@@ -132,6 +133,7 @@
 }
 
 .socials-icon-main {
+  fill: transparent;
   stroke: var(--accent-color-light);
 }
 
