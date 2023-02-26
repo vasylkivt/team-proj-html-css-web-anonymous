@@ -1,93 +1,107 @@
 <!-- Book room modal -->
 <div class="backdrop">
-  <div class="book-room-modal">
-    <button class="book-room-modal-close-btn" type="button">
-      <svg class="modal-close-icon" width="28" height="28">
-        <use href="./img/icons/sprite.svg#close-x"></use>
-      </svg>
-    </button>
-    <h2 class="book-room-modal-title">book a room</h2>
-    <form class="book-room-modal-form">
-      <label for="name" class="book-room-modal-label">
-        <input
-          type="text"
-          name="user_name"
-          id="name"
-          class="book-room-modal-input"
-          placeholder="Your name"
-          required
-        />Who should book a table for?
-      </label>
-
-      <label for="phone" class="book-room-modal-label">
-        <input
-          type="tel"
-          name="user_phone"
-          id="phone"
-          class="book-room-modal-input"
-          placeholder="+38 () "
-          required
-        />Phone number
-      </label>
-
-      <label for="check_in_day" class="book-room-modal-label">
-        <div class="modal-icon-wrap">
-          <select
-            name="check_in_day"
-            id="check_in_day"
-            class="book-room-modal-select"
-            required
-          >
-            <option value="1">TODAY</option>
-            <option value="2">WITHIN A WEEK</option>
-            <option value="3">WITHIN A MONTH</option>
-          </select>
-          <svg class="modal-select-icon" width="12" height="12">
-            <use href="./img/icons/sprite.svg#btn-select"></use>
+      <div class="book-room-modal">
+        <button class="book-room-modal-close-btn" type="button">
+          <svg width="28" height="28">
+            <use href="./img/icons/sprite.svg#close-x"></use>
           </svg>
-        </div>
-        Check-in date
-      </label>
-      <label
-        for="check_in_date"
-        class="book-room-modal-label modal-select-label"
-        ><div class="modal-icon-wrap">
-          <input
-            type="date"
-            id="check_in_date"
-            min="2010-01-01"
-            max="2050-01-01"
-            value="2023-04-25"
-            class="book-room-modal-input"
-            required
-          />
-          <svg class="modal-select-icon" width="12" height="12">
-            <use href="./img/sprite.svg#icon-Icon-1"></use>
-          </svg>
-        </div>
-        Check-in date</label
-      >
-      <label for="type_of_room" class="book-room-modal-label modal-select-label"
-        ><div class="modal-icon-wrap">
-          <select
-            name="type_of_room"
-            id="type_of_room"
-            class="book-room-modal-select"
-            required
-          >
-            <option value="1">DOUBLE SUITE</option>
-            <option value="2">TRIPLE SUITE</option>
-            <option value="3">QUADRUPLE SUITE</option>
-          </select>
-          <svg class="modal-select-icon" width="12" height="12">
-            <use href="./img/icons/sprite.svg#btn-select"></use>
-          </svg>
-        </div>
-        Check-in date</label
-      >
-      <button type="submit" class="book-room-modal-button">
-        MAKE A RESERVATION
-      </button>
-    </form>
-  </div>
-</div>
+        </button>
+        <h2 class="book-room-modal-title">book a room</h2>
+        <form class="book-room-modal-form">
+          <ul class="book-room-modal-list">
+            <li class="book-room-modal-item">
+              <label for="name" class="book-room-modal-label">
+                <input
+                  type="text"
+                  name="user_name"
+                  id="name"
+                  class="book-room-modal-input"
+                  placeholder="Your name"
+                  required
+                />Who should book a table for?
+              </label>
+            </li>
+            <li class="book-room-modal-item">
+              <label for="phone" class="book-room-modal-label">
+                <input
+                  type="tel"
+                  name="user_phone"
+                  id="phone"
+                  class="book-room-modal-input"
+                  placeholder="+38 () "
+                  required
+                />Phone number
+              </label>
+            </li>
+            <li class="book-room-modal-item">
+              <label for="check_in_day" class="book-room-modal-label">
+                <div class="modal-icon-wrap">
+                  <select
+                    name="check_in_day"
+                    id="check_in_day"
+                    class="book-room-modal-select"
+                    required
+                  >
+                    <option value="1">TODAY</option>
+                    <option value="2">WITHIN A WEEK</option>
+                    <option value="3">WITHIN A MONTH</option>
+                  </select>
+                  <svg class="modal-select-icon" width="12" height="12">
+                    <use href="./img/icons/sprite.svg#btn-select"></use>
+                  </svg>
+                </div>
+                Check-in date
+              </label>
+            </li>
+            <li class="book-room-modal-item">
+              <label
+                for="check_in_date"
+                class="book-room-modal-label modal-select-label"
+                ><div class="modal-icon-wrap">
+                  <input
+                    type="date"
+                    id="check_in_date"
+                    min="2010-01-01"
+                    max="2050-01-01"
+                    value="2023-04-25"
+                    class="book-room-modal-input"
+                    required
+                  />
+                  <svg class="modal-select-icon" width="12" height="12">
+                    <use href="./img/icons/sprite.svg#btn-select"></use>
+                  </svg>
+                </div>
+                Check-in date</label
+              >
+            </li>
+            <li class="book-room-modal-item">
+              <label
+                for="type_of_room"
+                class="book-room-modal-label modal-select-label"
+                ><div class="modal-icon-wrap">
+                  <select
+                    name="type_of_room"
+                    id="type_of_room"
+                    class="book-room-modal-select"
+                    required
+                  >
+                    <option value="1">DOUBLE SUITE</option>
+                    <option value="2">TRIPLE SUITE</option>
+                    <option value="3">QUADRUPLE SUITE</option>
+                  </select>
+                  <svg class="modal-select-icon" width="12" height="12">
+                    <use href="./img/icons/sprite.svg#btn-select"></use>
+                  </svg>
+                </div>
+                Check-in date</label
+              >
+            </li>
+          </ul>
+          <div class="book-room-modal-button-wrap">
+            <button type="submit" class="book-room-modal-button">
+              MAKE A RESERVATION
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
