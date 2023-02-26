@@ -7,11 +7,11 @@
   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
 }
 
-@media screen and (min-width:768px) {
-  .footer{
-  padding-top: 32px;
-  height: 101px;
-  margin-bottom: 48px;
+@media screen and (min-width: 768px) {
+  .footer {
+    height: 101px;
+    margin-bottom: 48px;
+    padding-top: 32px;
   }
 }
 
@@ -24,23 +24,23 @@
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .logo-footer {
-  align-items: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
+    position: absolute;
+    left: 50%;
+    align-items: center;
+    transform: translateX(-50%);
+  }
 }
 
 .logo-top-footer {
+  margin-bottom: 3px;
   color: var(--title-color-dark);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  margin-bottom: 3px;
 }
 
 .logo-bottom-footer {
@@ -56,57 +56,44 @@
   display: none;
 }
 
-@media screen and (min-width:1440px) {
-
-
+@media screen and (min-width: 1440px) {
   .nav-footer {
-  display: block;
-}
+    display: block;
+  }
 
-.nav-footer-list {
-  display: flex;
-  gap: 32px;
+  .nav-footer-list {
+    display: flex;
+    gap: 32px;
+  }
+  .nav-footer-link {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
 }
-.nav-footer-link {
-font-size: 14px;
-line-height: 1.29;
-letter-spacing: 0.05em;
-text-transform: uppercase;
-}
-}
-
-
-.nav-footer-item {
-}
-
 
 .footer-socials-list {
   display: flex;
-gap: 14px;
+  gap: 14px;
 }
 
-@media screen and (min-width:768px) {
-.footer-socials-list {
-gap: 16px;
-}
+@media screen and (min-width: 768px) {
+  .footer-socials-list {
+    gap: 16px;
+  }
 }
 
-
-.footer-socials-item {
-}
-.footer-socials-link {
- 
-}
 .footer-socials-icon {
   width: 20px;
   height: 20px;
-   fill: transparent;
+  fill: transparent;
   stroke: var(--title-color-dark);
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .footer-socials-icon {
-  width: 24px;
-  height: 24px;
-}
+    width: 24px;
+    height: 24px;
+  }
 }
