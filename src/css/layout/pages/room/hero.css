@@ -86,7 +86,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
 
-  color: #121212;
+  color: var(--title-color-dark);
   max-width: 270px;
   max-height: 80px;
 
@@ -126,7 +126,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
 
-  color: #121212;
+  color: var(--title-color-dark);
   background: transparent;
 
   padding-top: 8px;
@@ -135,7 +135,7 @@
   padding-right: 18px;
   margin-bottom: 40px;
 
-  border: 0.8px solid #121212;
+  border: 0.8px solid var(--title-color-dark);
   border-radius: 32px;
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -163,10 +163,9 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
 
-  color: #121212;
+  color: var(--title-color-dark);
 
-  min-width: 289px;
-  max-width: 72px;
+  max-width: 289px;
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .hero-text {
@@ -208,10 +207,6 @@
     margin-right: 32px;
   }
 }
-
-/* .slider-card:not(:last-child) {
-  margin-right: 0;
-} */
 
 .slider-btn-wrap {
   display: flex;

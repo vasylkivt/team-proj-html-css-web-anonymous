@@ -5,6 +5,13 @@
 @media screen and (min-width: 1440px) {
   .amenities {
     padding-top: 94px;
+    padding-bottom: 616px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .amenities-wrap {
+    position: relative;
   }
 }
 
@@ -28,16 +35,9 @@
     justify-content: space-between;
     row-gap: 100px;
     position: relative;
+    margin-bottom: 0;
   }
 }
-
-/* @media screen and (min-width: 1440px) {
-  .amenities-content-max {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-} */
 
 .amenities-box {
   display: flex;
@@ -93,7 +93,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
 
-  color: #f7f7f7;
+  color: var(--text-color-light);
 
   list-style: disc;
 
@@ -140,7 +140,7 @@
 }
 
 .amenities-button {
-  border: 0.8px solid #f7f7f7;
+  border: 0.8px solid var(--text-color-light);
   border-radius: 32px;
 
   font-weight: 400;
@@ -196,19 +196,16 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .amenities-content-max {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-}
-
 .amenities-content-max {
   position: relative;
 }
+
 @media screen and (min-width: 1440px) {
   .amenities-content-max {
+    position: absolute;
+    top: -120px;
+    right: 0;
+    left: 0;
   }
 }
 
