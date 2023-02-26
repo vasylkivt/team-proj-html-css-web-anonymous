@@ -15,8 +15,6 @@
   }
 }
 
-.hero {
-}
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .hero {
     padding-top: 40px;
@@ -27,7 +25,7 @@
 @media screen and (min-width: 1440px) {
   .hero {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 82px;
   }
 }
 
@@ -48,6 +46,12 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .hero-content {
+    padding-right: 0;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .hero-container {
     margin-bottom: 40px;
@@ -57,7 +61,6 @@
 @media screen and (min-width: 1440px) {
   .hero-container {
     display: flex;
-    height: 580px;
   }
 }
 
@@ -147,11 +150,6 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .hero-button {
-  }
-}
-
 .slider {
   display: flex;
   overflow: hidden;
@@ -187,8 +185,6 @@
 }
 
 /* slider */
-.slider {
-}
 
 .slider-container {
   margin-bottom: 24px;
@@ -198,14 +194,16 @@
     margin-bottom: 40px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .slider-container {
+    margin-bottom: 0px;
+  }
+}
 
 .slider-box {
-}
-.slider-box {
   margin-right: 20px;
-  width: 250px;
 }
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) {
   .slider-box {
     margin-right: 32px;
   }
@@ -231,8 +229,10 @@
 @media screen and (min-width: 1440px) {
   .slider-btn-wrap {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: -55px;
+    right: 605px;
+
+    margin-right: 0;
   }
 }
 
@@ -256,18 +256,8 @@
 
 @media screen and (min-width: 768px) {
 }
-.slider {
-  /* margin-bottom: 108px; */
-}
-.slider-container {
-  /* margin-bottom: 32px; */
-}
 
 .slider-btn-icon {
   width: 16px;
   height: 16px;
-}
-
-.slider-card:not(:last-child) {
-  /* margin-right: 32px; */
 }

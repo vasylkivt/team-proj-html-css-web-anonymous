@@ -107,6 +107,13 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .amenities-list {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
 .amenities-item {
   font-weight: 400;
   font-size: 14px;
@@ -189,20 +196,19 @@
   }
 }
 
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .amenities-content-max {
     position: absolute;
     top: 0;
     right: 0;
   }
-} */
+}
 
 .amenities-content-max {
   position: relative;
 }
 @media screen and (min-width: 1440px) {
   .amenities-content-max {
-    top: -154px;
   }
 }
 
