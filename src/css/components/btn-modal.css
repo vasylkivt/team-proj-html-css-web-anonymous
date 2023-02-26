@@ -1,8 +1,8 @@
 .btn-modal {
     display: block;
   padding-top: 8px;
-  padding-right: 18px;
   padding-bottom: 8px;
+  padding-right: 18px;
   padding-left: 18px;
   border-radius: 32px;
   border: none;
@@ -11,4 +11,21 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+.btn-modal{
+line-height: 1.71;
+padding-right: 24px;
+  padding-left: 24px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.hero-title{
+ font-size: 18px;
+line-height: 1.33;
+padding-top: 9px;
+  padding-bottom: 9px;
+}
 }
