@@ -32,3 +32,10 @@
     text-transform: uppercase;
     color: var(--text-color-dark);
 }
+
+.slider-btn-prev, .slider-btn-next {
+    background-color: transparent;
+    border: none;
+    width: 36px;
+    height: 36px;
+}
