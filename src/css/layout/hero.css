@@ -1,6 +1,7 @@
 
 .hero-main {
   background-color: var(--background-color-dark);
+  --animate-delay: 0.3s;
 }
 
 .container-hero-main {
