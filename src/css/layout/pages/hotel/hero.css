@@ -20,11 +20,6 @@
     margin-bottom: 40px;
 }
 
-.slider {
-    display: flex;
-    overflow: hidden;
-}
-
 .hotel-btn {
     border: 0.8px solid var(--accent-color-dark);
     color: var(--accent-color-dark);
