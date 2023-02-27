@@ -1,1 +1,77 @@
-/*  */
+<!--  Book a table modal -->
+
+<div class="backdrop is-hidden">
+  <div class="book-table-modal">
+    <button class="modal-close-btn" type="button">
+      <svg width="28" height="28">
+        <use href="./img/icons/sprite.svg#close-x"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">
+      book a <span class="current-font-style">table</span>
+    </h2>
+    <form class="book-a-table-modal-form">
+      <ul class="book-a-table-modal-list">
+        <li class="book-a-table-modal-item">
+          <label class="book-a-table-modal-label">
+            <input
+              type="text"
+              name="user_name"
+              class="book-a-table-modal-input"
+              placeholder="Your name"
+              required
+            />Who should book a table for?
+          </label>
+        </li>
+        <li class="book-a-table-modal-item">
+          <label class="book-a-table-modal-label">
+            <span class="modal-icon-wrap">
+              <select name="check_in_day" class="book-a-table-modal-select fix-margin">
+               <option value disabled selected>NUMBER OF PEOPLE</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option> 
+              </select>
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="./img/icons/sprite.svg#btn-select"></use>
+              </svg>
+            </span>
+          </label>
+        </li>
+        <li class="book-a-table-modal-item">
+          <label class="book-a-table-modal-label">
+            <span class="modal-icon-wrap">
+              <select name="check_in_day" class="book-a-table-modal-select">
+                <option value="1">TODAY</option>
+                <option value="2">WITHIN A WEEK</option>
+                <option value="3">WITHIN A MONTH</option>
+              </select>
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="./img/icons/sprite.svg#btn-select"></use>
+              </svg>
+            </span>
+            What date to book?
+          </label>
+        </li>
+        <li class="book-a-table-modal-item">
+          <label class="book-a-table-modal-label">
+            <input
+              type="tel"
+              name="user_phone"
+              class="book-a-table-modal-input"
+              placeholder="+38 () "
+              required
+            />Phone number
+          </label>
+        </li>
+      </ul>
+      <div class="modal-button-wrap">
+        <button type="submit" class="modal-button">MAKE A RESERVATION</button>
+      </div>
+    </form>
+  </div>
+</div>
