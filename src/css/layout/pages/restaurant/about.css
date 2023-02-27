@@ -25,3 +25,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
+
+.italic-text{
+    font-style: italic;
+}
