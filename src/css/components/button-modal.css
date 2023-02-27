@@ -1,0 +1,24 @@
+.modal-button {
+  border: 0.8px solid #f7f7f7;
+  border-radius: 32px;
+  padding-top: 14px;
+  padding-right: 49px;
+  padding-bottom: 14px;
+  padding-left: 48px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  color: #f7f7f7;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-button {
+    font-size: 18px;
+    line-height: 1.33;
+    padding-right: 134px;
+    padding-left: 133px;
+  }
+}

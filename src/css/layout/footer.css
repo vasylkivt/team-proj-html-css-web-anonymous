@@ -19,11 +19,23 @@
   display: flex;
   justify-content: space-between;
 }
-
 .logo-footer {
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 320px) {
+  .footer-items {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+
+  }
+  .logo-footer {
+    align-items: center;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .logo-footer {
     position: absolute;
