@@ -12,6 +12,15 @@
 
   background-color: transparent;
   color: #f7f7f7;
+
+  transition: transform 250ms var(--cubic), color 250ms var(--cubic),
+    background-color 250ms var(--cubic);
+}
+
+.modal-button:hover {
+  background-color: var(--background-color-light);
+  color: var(--accent-color-dark);
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {
