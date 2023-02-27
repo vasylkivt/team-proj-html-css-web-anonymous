@@ -4,7 +4,7 @@
     padding-bottom: 64px;
 }
 
-.hotel-hero-title {
+.location-title {
     font-weight: 500;
     font-size: 40px;
     line-height: 40px;
@@ -69,7 +69,7 @@
         padding-bottom: 80px;
     }
     
-    .hotel-hero-title {
+    .location-title {
         font-size: 68px;
         line-height: 68px;
     }
@@ -114,7 +114,7 @@
         position: relative;
     }
 
-    .hotel-hero-title {
+    .location-title {
         position: absolute;
         z-index: 1;
         margin-left: 672px;
