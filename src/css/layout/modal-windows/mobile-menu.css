@@ -1,4 +1,4 @@
-@media screen and (max-width:1439px) {
+/* @media screen and (max-width:1439px) { */
 
 .mobile-menu {
  z-index: 99;
@@ -78,6 +78,5 @@
   .socials-icon-main {
   fill: transparent;
   stroke: var(--accent-color-light);
-}
 }
 }
