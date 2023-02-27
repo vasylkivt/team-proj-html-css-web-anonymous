@@ -3,7 +3,7 @@
   padding: 64px 0;
 }
 
-.img-cook {
+.about-a-kitchen-main-img {
   margin-bottom: 20px;
 }
 
@@ -18,6 +18,10 @@
   gap: 20px;
   flex-direction: column;
 }
+
 .about-kitchen-text-item {
+  font-size: 14px;
+  line-height: 1, 29;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
 }
