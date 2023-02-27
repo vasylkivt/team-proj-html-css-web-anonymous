@@ -1,0 +1,13 @@
+.button:hover .light-bg-btn,
+.button:focus .light-bg-btn{
+background-color: var(--background-color-light);
+color: var(--accent-color-dark);
+transform: scale(1.1);
+}
+
+.button:hover .dark-bg-btn,
+.button:focus .dark-bg-btn{
+background-color: var(--background-color-dark);
+color: var(--accent-color-light);
+transform: scale(1.1);
+}
