@@ -180,6 +180,13 @@
 
 @media screen and (min-width: 1440px) {
   .amenities-button {
+    font-size: 18px;
+    line-height: 1.33;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 24px;
+    padding-right: 24px;
+
     position: absolute;
     bottom: 138px;
     left: 525px;
