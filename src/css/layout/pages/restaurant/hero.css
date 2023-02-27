@@ -1,1 +1,41 @@
-/*  */
+.restaurant-hero-container {
+  padding-top: 40px;
+}
+
+.restaurant-hero-title {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--title-color-dark);
+}
+
+.restaurant-hero-wrap {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.restaurant-hero-btn {
+  border: 0.8px solid var(--accent-color-dark);
+}
+
+.restaurant-hero-link {
+  display: inline;
+  border: 0.8px solid var(--accent-color-dark);
+}
+
+.restaurant-hero-wrapper {
+  display: flex;
+  overflow: hidden;
+}
+
+.restaurant-hero-text {
+  width: 338px;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
