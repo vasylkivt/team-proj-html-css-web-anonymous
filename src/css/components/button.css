@@ -11,6 +11,10 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+
+  transition: transform 250ms var(--cubic),
+  color 250ms var(--cubic),
+  background-color 250ms var(--cubic);
 }
 
 @media screen and (min-width: 768px) {
