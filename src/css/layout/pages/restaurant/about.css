@@ -1,1 +1,23 @@
 /* <!-- about --> */
+.about-a-kitchen {
+  padding: 64px 0;
+}
+
+.img-cook {
+  margin-bottom: 20px;
+}
+
+.about-kitchen-list {
+  display: flex;
+  gap: 20px;
+}
+
+.about-kitchen-text-list {
+  margin-top: 32px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.about-kitchen-text-item {
+  text-transform: uppercase;
+}
