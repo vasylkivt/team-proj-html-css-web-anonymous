@@ -1,5 +1,31 @@
 .restaurant-hero-container {
   padding-top: 40px;
+  padding-bottom: 64px;
+  padding-right: 0;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-hero-container {
+    padding-bottom: 40px;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .restaurant-hero-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .restaurant-hero-content {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .restaurant-hero-container {
+    display: flex;
+  }
 }
 
 .restaurant-hero-title {
@@ -10,6 +36,8 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--title-color-dark);
+  max-width: 233px;
+  max-height: 40px;
 }
 
 .restaurant-hero-wrap {
@@ -19,23 +47,60 @@
 }
 
 .restaurant-hero-btn {
+  font-weight: 400;
   border: 0.8px solid var(--accent-color-dark);
+  background-color: transparent;
 }
 
 .restaurant-hero-link {
+  font-weight: 400;
   display: inline;
   border: 0.8px solid var(--accent-color-dark);
 }
 
-.restaurant-hero-wrapper {
+.slider {
   display: flex;
   overflow: hidden;
 }
 
 .restaurant-hero-text {
-  width: 338px;
+  max-width: 338px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+.restaurant-hero-decoration {
+  font-style: italic;
+}
+
+.slider-container {
+  margin-bottom: 24px;
+}
+
+.slider-btn-wrap {
+  display: flex;
+  justify-content: end;
+  gap: 32px;
+  margin-right: 20px;
+}
+
+.slider-btn-icon {
+  width: 12px;
+  height: 12px;
+}
+.slider-btn-prev,
+.slider-btn-next {
+  background-color: transparent;
+  border: none;
+
+  width: 36px;
+  height: 36px;
+}
+
+.slick-disabled {
+  cursor: not-allowed;
+  fill: rgba(18, 18, 18, 0.3);
 }
