@@ -25,6 +25,10 @@
     color: var(--accent-color-dark);
 }
 
+.slider {
+    margin-bottom: 24px;
+}
+
 .hotel-hero-desc {
     font-size: 14px;
     line-height: 18px;
