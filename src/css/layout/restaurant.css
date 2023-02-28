@@ -80,18 +80,10 @@
   background-color: var(--background-color-dark);
 }
 
-@media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
-}
+
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding-right: 32px;
-    padding-left: 32px;
-  }
+  
   
   .restaurant-desc-wrapper {
     flex-direction: row;
@@ -124,9 +116,9 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
+  .restaurant-details .container {
     position: relative;
-    width: 1440px;
+   
   }
   .restaurant-details {
     padding-top: 44px;
