@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 768px) {
   .restaurant-hero-container {
-    padding-bottom: 90px;
+    padding-bottom: 73px;
     position: relative;
   }
 }
@@ -147,7 +147,7 @@
 @media screen and (min-width: 768px) {
   .restaurant-hero-text {
     position: absolute;
-    bottom: 52px;
+    bottom: 36px;
     left: 32px;
   }
 }
