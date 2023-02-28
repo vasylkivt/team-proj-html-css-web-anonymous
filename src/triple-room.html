@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- js jquery -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- main styles -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <load ="partials/pages/triple-room/header.html" />
+
+    <main>
+      <load ="partials/pages/triple-room/hero.html" />
+      <load ="partials/pages/triple-room/amenities.html" />
+
+      <!-- button-top -->
+      <load ="partials/elements/button-top.html" />
+
+      <!-- Pop up -->
+      <load ="partials/modal-windows/book-a-room.html" />
+      <load ="partials/modal-windows/book-a-table.html" />
+      <load ="partials/modal-windows/prices-per-room.html" />
+
+      <!-- mobile-menu -->
+      <load ="partials/modal-windows/mobile-menu.html" />
+    </main>
+
+    <!-- <load ="partials/pages/triple-room/footer.html" /> -->
+
+    <!-- js jquery -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- AOS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ disable: 'mobile' });
+    </script>
+
+    <!-- main js -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
