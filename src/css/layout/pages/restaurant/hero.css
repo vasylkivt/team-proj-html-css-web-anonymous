@@ -94,6 +94,12 @@
   background-color: transparent;
 }
 
+.restaurant-hero-btn:hover,
+.restaurant-hero-btn:focus {
+  background-color: var(--background-color-dark);
+  color: var(--accent-color-light);
+}
+
 @media screen and (min-width: 768px) {
   .restaurant-hero-btn {
     font-size: 14px;
@@ -115,6 +121,12 @@
   font-weight: 400;
   display: inline;
   border: 0.8px solid var(--accent-color-dark);
+}
+
+.restaurant-hero-link:hover,
+.restaurant-hero-link:focus {
+  background-color: var(--background-color-dark);
+  color: var(--accent-color-light);
 }
 
 @media screen and (min-width: 768px) {
