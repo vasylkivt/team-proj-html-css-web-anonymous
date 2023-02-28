@@ -13,7 +13,7 @@
 @media screen and (min-width: 1440px) {
   .restaurant-hero-container {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 82px;
   }
 }
 
@@ -147,36 +147,44 @@
 @media screen and (min-width: 768px) {
   .restaurant-hero-text {
     position: absolute;
-    bottom: 53px;
+    bottom: 52px;
     left: 32px;
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .restaurant-hero-text {
+    bottom: 43px;
+  }
+}
 .restaurant-hero-decoration {
   font-style: italic;
 }
 
-.slider-btn-wrap {
+.slick-disabled {
+  cursor: not-allowed;
+  fill: rgba(18, 18, 18, 0.3);
+}
+
+.restaurant-slider-wrap {
   display: flex;
   justify-content: end;
   gap: 32px;
   margin-right: 20px;
 }
 
-.slider-btn-icon {
-  width: 12px;
-  height: 12px;
-}
-.slider-btn-prev,
-.slider-btn-next {
-  background-color: transparent;
-  border: none;
-
-  width: 36px;
-  height: 36px;
+@media screen and (min-width: 768px) {
+  .restaurant-slider-wrap {
+    margin-right: 32px;
+  }
 }
 
-.slick-disabled {
-  cursor: not-allowed;
-  fill: rgba(18, 18, 18, 0.3);
+@media screen and (min-width: 1440px) {
+  .restaurant-slider-wrap {
+    position: absolute;
+    bottom: 31px;
+    right: 605px;
+
+    margin-right: 0;
+  }
 }
