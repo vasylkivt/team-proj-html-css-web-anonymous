@@ -163,6 +163,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+.amenities-button:hover,
+.amenities-button:focus {
+  background-color: var(--background-color-light);
+  color: var(--accent-color-dark);
+}
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .amenities-button {
