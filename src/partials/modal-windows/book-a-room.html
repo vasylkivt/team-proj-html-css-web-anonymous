@@ -1,12 +1,13 @@
 <!-- Book room modal -->
-<div class="backdrop is-hidden">
-  <div class="book-room-modal">
-    <button class="book-room-modal-close-btn" type="button">
+
+<div class="backdrop is-hidden" data-modal="book-room">
+  <div class="book-room-modal modal">
+    <button class="modal-close-btn" type="button">
       <svg width="28" height="28">
         <use href="./img/icons/sprite.svg#close-x"></use>
       </svg>
     </button>
-    <h2 class="book-room-modal-title">
+    <h2 class="modal-title">
       book a <span class="current-font-style">room</span>
     </h2>
     <form class="book-room-modal-form">
@@ -37,9 +38,9 @@
           <label class="book-room-modal-label">
             <span class="modal-icon-wrap">
               <select name="check_in_day" class="book-room-modal-select">
-                <option value="1">TODAY</option>
-                <option value="2">WITHIN A WEEK</option>
-                <option value="3">WITHIN A MONTH</option>
+                <option value="1">⠀TODAY</option>
+                <option value="2">⠀WITHIN A WEEK</option>
+                <option value="3">⠀WITHIN A MONTH</option>
               </select>
               <svg class="modal-select-icon" width="20" height="20">
                 <use href="./img/icons/sprite.svg#btn-select"></use>
@@ -62,16 +63,16 @@
                 <use href="./img/icons/sprite.svg#btn-select"></use>
               </svg>
             </span>
-            Check-in date</label
+            Check-out date</label
           >
         </li>
         <li class="book-room-modal-item">
           <label class="book-room-modal-label modal-select-label"
             ><span class="modal-icon-wrap">
               <select name="type_of_room" class="book-room-modal-select">
-                <option value="1">DOUBLE SUITE</option>
-                <option value="2">TRIPLE SUITE</option>
-                <option value="3">QUADRUPLE SUITE</option>
+                <option value="1">⠀DOUBLE SUITE</option>
+                <option value="2">⠀TRIPLE SUITE</option>
+                <option value="3">⠀QUADRUPLE SUITE</option>
               </select>
               <svg class="modal-select-icon" width="20" height="20">
                 <use href="./img/icons/sprite.svg#btn-select"></use>
@@ -81,7 +82,7 @@
           >
         </li>
       </ul>
-      <div class="book-room-modal-button-wrap">
+      <div class="modal-button-wrap">
         <button type="submit" class="modal-button">MAKE A RESERVATION</button>
       </div>
     </form>
