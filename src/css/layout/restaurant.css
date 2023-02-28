@@ -1,8 +1,4 @@
-/* restaurant */
-.restaurant-details {
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
+
 .restaurant-desc-wrapper {
   display: flex;
   flex-direction: column;
@@ -96,10 +92,7 @@
     padding-right: 32px;
     padding-left: 32px;
   }
-  .restaurant-details {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
+  
   .restaurant-desc-wrapper {
     flex-direction: row;
     gap: 32px;
@@ -136,8 +129,8 @@
     width: 1440px;
   }
   .restaurant-details {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 44px;
+    padding-bottom: 113px;
   }
 
   .book-table-btn {
