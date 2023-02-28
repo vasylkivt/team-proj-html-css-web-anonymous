@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 768px) {
   .restaurant-hero-container {
-    padding-bottom: 90px;
+    padding-bottom: 73px;
     position: relative;
   }
 }
@@ -94,6 +94,12 @@
   background-color: transparent;
 }
 
+.restaurant-hero-btn:hover,
+.restaurant-hero-btn:focus {
+  background-color: var(--background-color-dark);
+  color: var(--accent-color-light);
+}
+
 @media screen and (min-width: 768px) {
   .restaurant-hero-btn {
     font-size: 14px;
@@ -115,6 +121,12 @@
   font-weight: 400;
   display: inline;
   border: 0.8px solid var(--accent-color-dark);
+}
+
+.restaurant-hero-link:hover,
+.restaurant-hero-link:focus {
+  background-color: var(--background-color-dark);
+  color: var(--accent-color-light);
 }
 
 @media screen and (min-width: 768px) {
@@ -147,7 +159,7 @@
 @media screen and (min-width: 768px) {
   .restaurant-hero-text {
     position: absolute;
-    bottom: 52px;
+    bottom: 36px;
     left: 32px;
   }
 }
