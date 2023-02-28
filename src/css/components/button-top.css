@@ -1,0 +1,26 @@
+.button-visible {
+ position: fixed;
+  right: 50px;
+  bottom: 50px;
+  transition: transform 1100ms cubic-bezier(1, 0.67, 0.44, 1.91),
+    visibility 1100ms cubic-bezier(1, 0.67, 0.44, 1.91),
+    opacity 1100ms cubic-bezier(1, 0.67, 0.44, 1.91);
+  transform: translateY(0);
+}
+.button-hidden{
+ opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(200px);
+}
+
+.button-top-icon{
+  fill: black;
+  stroke: black;
+    display: block;
+  height: 70px;
+  padding: 5px;
+  border-radius: 40%;
+  background-color:rgba(255, 255, 255, .3);
+}
+
