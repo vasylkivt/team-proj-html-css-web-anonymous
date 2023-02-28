@@ -17,7 +17,7 @@
   transition: transform 250ms var(--cubic), opacity 250ms var(--cubic);
 }
 
-.backdrop.is-hidden .book-table-modal {
+.backdrop.is-hidden .prices-modal {
   transform: translate(-50%, -50%) scaleY(0);
   opacity: 0;
 }
