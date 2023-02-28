@@ -1,11 +1,10 @@
 /* hotel */
 .hotel {
-  padding-top: 64px;
+  padding-top: 32px;
   padding-bottom: 32px;
   background-color: var(--background-color-dark);
 }
 .hotel-title {
-  display: block;
   font-weight: 500;
   font-size: 40px;
   line-height: 1;
@@ -13,6 +12,9 @@
   text-transform: uppercase;
   color: var(--accent-color-light);
   margin-bottom: 32px;
+}
+.title-text-common {
+  margin-bottom: 33px;
 }
 .hotel-text {
   width: 335px;
@@ -22,8 +24,6 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--accent-color-light);
-  margin-bottom: 33px;
-  width: 335px;
 }
 .first-group {
   margin-bottom: 27px;
@@ -65,15 +65,85 @@
   height: 34px; */
 }
 @media screen and (min-width: 768px) {
-  .hotel-title {
+  .hotel {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+  .title-text-common {
     display: flex;
 
+    margin-bottom: 80px;
+    /* padding-right: 134px; */
+  }
+  .hotel-title {
     font-size: 68px;
-    line-height: 1;
+    line-height: 1.1;
+    margin-right: 32px;
+    margin-bottom: 0px;
   }
   .hotel-text {
     width: 362px;
+    line-height: 1.3;
+    margin-bottom: 0px;
+  }
+  .first-group {
+    margin-bottom: 0;
+  }
+  .hotel-pictures {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .pictures-first-second {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .second-group {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 16px;
+    margin-right: 16px;
+    margin-bottom: 0px;
+  }
+  .third-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
   }
 }
 @media screen and (min-width: 1440px) {
+  .hotel {
+    padding-top: 44px;
+    padding-bottom: 60px;
+  }
+  .hotel-title {
+  }
+  .hotel-pictures {
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .first-group {
+    margin-right: 32px;
+  }
+  .second-group {
+    flex-direction: column;
+    gap: 28px;
+    margin-right: 32px;
+  }
+  .third-group {
+    gap: 28px;
+  }
+  .title-text-common {
+  }
+  .container {
+    position: relative;
+  }
+  .buttons {
+    position: absolute;
+
+    top: 20px;
+
+    left: 1145px;
+  }
 }
