@@ -1,6 +1,5 @@
 /* Double room */
 .double-room-container {
-    padding-top: 12px;
     padding-bottom: 64px;
 }
 
@@ -21,11 +20,14 @@
     margin-bottom: 32px;
 }
 
+.double-room-text-wrap {
+    margin-bottom: 28px;
+}
+
 .hotel-rooms-text-list {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 28px;
 }
 
 .hotel-rooms-text-item {
@@ -51,8 +53,10 @@
     }
 
     .double-room-images {
+        position: relative;
         display: flex;
         flex-wrap: wrap;
+        justify-content: flex-end;
         gap: 32px;
         margin-bottom: 40px;
     }
@@ -63,13 +67,13 @@
 
     .double-room-img-2 {
         order: 1;
-        margin-left: 118px;
     }
 
     .double-room-img-3 {
         order: 3;
         position: absolute;
-        margin-top: 293px;
+        left: 0;
+        bottom: 0;
     }
 
     .hotel-rooms-title {
@@ -77,11 +81,14 @@
         line-height: 44px;
     }
 
+    .double-room-text-wrap {
+        margin-bottom: 40px;
+    }
+
     .hotel-rooms-text-list {
         display: flex;
         flex-direction: row;
         gap: 32px;
-        margin-bottom: 40px;
     }
 
     .hotel-rooms-text-item {
@@ -101,6 +108,7 @@
 
 @media screen and (min-width: 1440px) {
     .double-room-container {
+        position: relative;
         padding-top: 100px;
         padding-bottom: 0;
     }
@@ -128,12 +136,15 @@
         margin-top: 0;
     }
 
+    .double-room-text-wrap {
+        margin-bottom: 0;
+    }
+
     .hotel-rooms-text-list {
         width: 686px;
         display: flex;
         flex-direction: row;
         gap: 32px;
-        margin-bottom: 0;
     }
 
     .hotel-rooms-text-item {
@@ -146,7 +157,7 @@
         position: absolute;
         display: flex;
         gap: 12px;
-        margin-left: 1046px;
-        margin-top: -268px;
+        right: 32px;
+        bottom: 224px;
     }
 }

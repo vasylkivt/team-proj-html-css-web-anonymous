@@ -1,6 +1,5 @@
 /* Four seater room */
 .four-seater-room-container {
-    padding-top: 12px;
     padding-bottom: 64px;
 }
 
@@ -31,13 +30,16 @@
 
 @media screen and (min-width: 768px) {
     .four-seater-room-container {
+        position: relative;
         padding-top: 80px;
         padding-bottom: 80px;
     }
 
     .four-seater-room-images {
+        position: relative;
         display: flex;
         flex-wrap: wrap;
+        justify-content: flex-end;
         gap: 32px;
         margin-bottom: 40px;
     }
@@ -48,12 +50,12 @@
 
     .four-seater-room-img-2 {
         order: 1;
-        margin-left: 118px;
     }
 
     .four-seater-room-img-3 {
         position: absolute;
-        margin-top: 293px;
+        left: 0;
+        bottom: 0;
     }
 
     .four-seater-room-text {
@@ -109,8 +111,8 @@
         position: absolute;
         display: flex;
         gap: 12px;
-        margin-left: 1046px;
-        margin-top: -220px;
+        right: 32px;
+        bottom: 277px;
     }
 }
 
