@@ -1,11 +1,9 @@
-/* about */
+
 .about-complex {
   padding-top: 64px;
   padding-bottom: 64px;
 }
 
-.restaurant-hotel-complex-wrapper {
-}
 .restaurant-hotel-complex-img {
   position: relative;
   display: flex;
@@ -13,102 +11,85 @@
   gap: 20px;
   margin-bottom: 32px;
 }
-.about-complex-img-1 {
-}
-.about-complex-img-2 {
-}
+
 .review-wrapper {
   position: absolute;
   display: flex;
-  align-items: center;
   gap: 12px;
+  align-items: center;
   width: 212px;
   height: 61px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  border-radius: 6px;
   background: #121212;
   box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
-  padding-top: 10px;
-  padding-left: 14px;
-  padding-bottom: 10px;
+}
+
+.restaurant-hotel-complex-wrapper{
+  margin-bottom: 64px;
 }
 
 .restaurant-hotel-complex-wrapper .review-wrapper {
-  bottom: 134px;
   right: 0;
+  bottom: 134px;
 }
-.maria-review-img {
-}
+
 .review-name {
+  color: var(--text-color-light);
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
-
-  color: var(--text-color-light);
 }
 .review-desc {
+  color: var(--text-color-rating);
   font-size: 12px;
   line-height: 1.33;
-
-  color: var(--text-color-rating);
 }
 .review-rating {
+  color: var(--text-color-light);
   font-size: 12px;
   line-height: 1.33;
-
-  color: var(--text-color-light);
-}
-.restaurant-hotel-complex-content {
 }
 
 .about-complex-subtitle {
+  margin-bottom: 18px;
+
+  color: var(--suptitle-color-gray);
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-
-  color: var(--suptitle-color-gray);
-  margin-bottom: 18px;
 }
 .about-complex-desc {
+  color: var(--text-color-dark);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
 
   letter-spacing: -0.02em;
   text-transform: uppercase;
-
-  color: var(--text-color-dark);
 }
 .desc {
   margin-bottom: 14px;
 }
 .business-class-hotel-wrapper {
   position: relative;
-  margin-top: 64px;
+ 
 }
 .business-class-hotel-wrapper .review-wrapper {
-  left: 0;
   top: 272px;
+  left: 0;
 }
 
-.business-class-hotel-content {
-  margin-top: 54px;
+.business-class-hotel-img{
+  margin-bottom: 54px;
 }
+
 .business-class-hotel-content .about-complex-desc {
   margin-bottom: 40px;
-}
-.about-complex-img-3 {
-}
-.about-complex-img-4 {
-}
-.alexander-review-img {
-}
-
-@media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -143,11 +124,12 @@
     font-size: 18px;
     line-height: 1.33;
   }
-  .business-class-hotel-wrapper {
-    margin-top: 80px;
+  .restaurant-hotel-complex-wrapper {
+    margin-bottom: 80px;
   }
   .business-class-hotel-img {
     margin-left: 174px;
+    margin-bottom: 40px;
   }
 
   .business-class-hotel-content {
@@ -184,8 +166,8 @@
     margin-left: 0;
   }
   .about-complex-img-2 {
-    left: 300px;
     top: 209px;
+    left: 300px;
     min-width: 439px;
   }
   .restaurant-hotel-complex-wrapper {
@@ -203,7 +185,6 @@
     left: 739px;
   }
   .business-class-hotel-content {
-    margin-top: 0;
     padding-top: 127px;
   }
   .business-class-hotel-img {
