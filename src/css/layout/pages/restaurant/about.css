@@ -21,7 +21,7 @@
   flex-direction: column;
 }
 
-.about-kitchen-text-item {
+.about-kitchen-text {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -55,6 +55,9 @@
   .about-kitchen-text-item {
     font-size: 18px;
     line-height: 1.33;
+  }
+  .about-kitchen-text{
+    font-size: 18px;
   }
 }
 
