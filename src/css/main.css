@@ -16,6 +16,7 @@
 
 /* components */
 @import url('./components/button.css');
+@import url('./components/button-top.css');
 @import url('./components/menu-navigation.css');
 @import url('./components/container.css');
 @import url('./components/socials-icon.css');

@@ -148,7 +148,8 @@
 /* main */
 
 .header-main {
-  position: absolute;
+  position: fixed;
+  z-index: 999;
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
   background-color: transparent;
 }
@@ -200,4 +201,8 @@
 
 .no-scroll{
   overflow: hidden;
+}
+
+.header-scroll{
+  background-color: rgba(0, 0, 0, .7 );
 }
