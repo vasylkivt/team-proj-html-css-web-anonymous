@@ -1,1 +1,79 @@
 /* hotel */
+.hotel {
+  padding-top: 64px;
+  padding-bottom: 32px;
+  background-color: var(--background-color-dark);
+}
+.hotel-title {
+  display: block;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--accent-color-light);
+  margin-bottom: 32px;
+}
+.hotel-text {
+  width: 335px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--accent-color-light);
+  margin-bottom: 33px;
+  width: 335px;
+}
+.first-group {
+  margin-bottom: 27px;
+}
+.second-group {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 82px;
+}
+.third-group {
+  display: none;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.common {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--accent-color-light);
+  padding-top: 8px;
+  padding-right: 18px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  background-color: var(--background-color-dark);
+  border: 0.8px solid var(--accent-color-light);
+  border-radius: 32px;
+}
+.hotel-button {
+  /* width: 131px;
+  height: 34px; */
+}
+.hotel-button-second {
+  /* width: 114px;
+  height: 34px; */
+}
+@media screen and (min-width: 768px) {
+  .hotel-title {
+    display: flex;
+
+    font-size: 68px;
+    line-height: 1;
+  }
+  .hotel-text {
+    width: 362px;
+  }
+}
+@media screen and (min-width: 1440px) {
+}
