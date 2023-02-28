@@ -1,1 +1,152 @@
-/*  */
+/* Double room */
+.double-room-container {
+    padding-top: 12px;
+    padding-bottom: 64px;
+}
+
+.double-room-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    margin-bottom: 32px;
+}
+
+.hotel-rooms-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--title-color-dark);
+    margin-bottom: 32px;
+}
+
+.hotel-rooms-text-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 28px;
+}
+
+.hotel-rooms-text-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--text-color-dark);
+}
+
+.hotel-rooms-list-btns {
+    display: flex;
+    gap: 12px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .double-room-container {
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+
+    .double-room-images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin-bottom: 40px;
+    }
+
+    .double-room-img-1 {
+        order: 2;
+    }
+
+    .double-room-img-2 {
+        order: 1;
+        margin-left: 118px;
+    }
+
+    .double-room-img-3 {
+        order: 3;
+        position: absolute;
+        margin-top: 293px;
+    }
+
+    .hotel-rooms-title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .hotel-rooms-text-list {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        margin-bottom: 40px;
+    }
+
+    .hotel-rooms-text-item {
+        max-width: 369px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .hotel-rooms-list-btns {
+        display: flex;
+        justify-content: flex-end;
+        gap: 12px;
+    }
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .double-room-container {
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+
+    .double-room-images {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 32px;
+        margin-bottom: 50px;
+    }
+
+    .double-room-img-1 {
+        order: 2;
+    }
+
+    .double-room-img-2 {
+        order: 3;
+        margin-left: 0;
+    }
+
+    .double-room-img-3 {
+        order: 1;
+        position: static;
+        margin-top: 0;
+    }
+
+    .hotel-rooms-text-list {
+        width: 686px;
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        margin-bottom: 0;
+    }
+
+    .hotel-rooms-text-item {
+        max-width: 355px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .hotel-rooms-list-btns {
+        position: absolute;
+        display: flex;
+        gap: 12px;
+        margin-left: 1046px;
+        margin-top: -268px;
+    }
+}
