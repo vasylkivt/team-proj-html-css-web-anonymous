@@ -1,1 +1,241 @@
-/*  */
+.amenities {
+  background: var(--background-color-dark);
+}
+
+@media screen and (min-width: 1440px) {
+  .amenities {
+    padding-top: 94px;
+    padding-bottom: 616px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .amenities-wrap {
+    position: relative;
+  }
+}
+
+.amenities-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 64px;
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .amenities-container {
+    margin-bottom: 122px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .amenities-container {
+    width: 1176px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 100px;
+    position: relative;
+    margin-bottom: 0;
+  }
+}
+
+.amenities-box {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .amenities-box {
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .amenities-box:last-child {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .amenities-box:nth-child(2) {
+    margin-right: 28px;
+  }
+}
+
+.amenities-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.14;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--text-color-light);
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .amenities-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .amenities-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
+.amenities-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--text-color-light);
+
+  list-style: disc;
+
+  padding-left: 28px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .amenities-list {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .amenities-list {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+.amenities-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--text-color-light);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .amenities-item {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .amenities-item {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+.amenities-button {
+  border: 0.8px solid var(--text-color-light);
+  border-radius: 32px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--text-color-light);
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  background: transparent;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.amenities-button:hover,
+.amenities-button:focus {
+  background-color: var(--background-color-light);
+  color: var(--accent-color-dark);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .amenities-button {
+    font-size: 14px;
+    line-height: 1.71;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    position: absolute;
+    bottom: 110px;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .amenities-button {
+    font-size: 18px;
+    line-height: 1.33;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    position: absolute;
+    bottom: 138px;
+    left: 525px;
+  }
+}
+
+.amenities-content-min {
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .amenities-content-min {
+    position: relative;
+    margin-bottom: 32px;
+  }
+}
+
+.amenities-content-max {
+  position: relative;
+}
+
+@media screen and (min-width: 1440px) {
+  .amenities-content-max {
+    position: absolute;
+    top: -120px;
+    right: 0;
+    left: 0;
+  }
+}
+
+.amenities-first-img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  left: 0;
+}
+@media screen and (min-width: 1440px) {
+  .amenities-first-img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 528px;
+  }
+}
+
+.amenities-second-img {
+  margin-left: auto;
+}

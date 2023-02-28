@@ -1,1 +1,156 @@
 /* location */
+.container-location {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.location-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--text-color-dark);
+    margin-bottom: 32px;
+}
+
+.map {
+    mix-blend-mode: luminosity;
+    box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+    margin-bottom: 32px;
+}
+
+.locations-contacts-address {
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 28px;
+}
+
+.locations-phones-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--text-color-dark);
+    margin-bottom: 12px;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contacts-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: var(--text-color-dark);
+}
+
+
+
+@media screen and (min-width: 375px) {
+    .map {
+        width: 335px;
+        height: 384px;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .container-location {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .location-title {
+        font-size: 68px;
+        line-height: 68px;
+    }
+
+    .map {
+        width: 704px;
+        height: 576px;
+        margin-bottom: 32px;
+    }
+
+    .locations-contacts {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contacts-list {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .locations-contacts-address {
+        margin-bottom: 0;
+    }
+
+    .contacts-link {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .container-location {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-right: 64px;
+        padding-left: 64px;
+        display: flex;
+        position: relative;
+    }
+
+    .location-title {
+        position: absolute;
+        z-index: 1;
+        margin-left: 672px;
+    }
+
+    .map {
+        width: 640px;
+        height: 524px;
+        margin-bottom: 0;
+        margin-right: 32px;
+    }
+
+    .locations-contacts {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 70px;
+    }
+
+    .locations-phones {
+        display: flex;
+        gap: 12px;
+    }
+
+    .locations-phones-title {
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .contacts-list {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .locations-contacts-address {
+        margin-bottom: 0;
+    }
+}

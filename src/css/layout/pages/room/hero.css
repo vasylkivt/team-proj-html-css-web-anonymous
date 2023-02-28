@@ -1,1 +1,264 @@
-/*  */
+.section {
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 156px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    padding-top: 30px;
+    padding-bottom: 82px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-content {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-content {
+    padding-right: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .hero-content {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-content {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-container {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-container {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-box {
+    width: 50%;
+
+    padding-top: 139px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .slider {
+    width: 50%;
+  }
+}
+
+.hero-title-room {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--title-color-dark);
+  max-width: 270px;
+  max-height: 80px;
+
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .hero-title-room {
+    max-width: 406px;
+    max-height: 120px;
+
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-title-room {
+    font-size: 80px;
+    line-height: 1;
+
+    max-width: 580px;
+    max-height: 160px;
+  }
+}
+
+.hero-decoration {
+  font-style: italic;
+}
+
+.hero-button {
+  font-weight: 400;
+  font-size: 14px;
+
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--title-color-dark);
+  background: transparent;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-bottom: 40px;
+
+  border: 0.8px solid var(--title-color-dark);
+  border-radius: 32px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--background-color-dark);
+  color: var(--accent-color-light);
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .hero-button {
+    font-size: 14px;
+    line-height: 1.71;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    margin-bottom: 28px;
+  }
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: var(--title-color-dark);
+
+  max-width: 289px;
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .hero-text {
+    position: absolute;
+    bottom: -36px;
+    left: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-text {
+    position: absolute;
+    bottom: 20px;
+    left: 32px;
+  }
+}
+
+/* slider */
+
+.slider-container {
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .slider-container {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .slider-container {
+    margin-bottom: 0px;
+  }
+}
+
+.slider-box {
+  margin-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .slider-box {
+    margin-right: 32px;
+  }
+}
+
+.slider-btn-wrap {
+  display: flex;
+  justify-content: end;
+  gap: 32px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .slider-btn-wrap {
+    margin-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .slider-btn-wrap {
+    position: absolute;
+    bottom: -55px;
+    right: 605px;
+
+    margin-right: 0;
+  }
+}
+
+.slider-btn-icon {
+  width: 12px;
+  height: 12px;
+}
+.slider-btn-prev,
+.slider-btn-next {
+  background-color: transparent;
+  border: none;
+
+  width: 36px;
+  height: 36px;
+}
+
+.slick-disabled {
+  cursor: not-allowed;
+  fill: rgba(18, 18, 18, 0.3);
+}
+
+@media screen and (min-width: 768px) {
+}
+
+.slider-btn-icon {
+  width: 16px;
+  height: 16px;
+}

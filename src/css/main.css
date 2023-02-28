@@ -15,11 +15,13 @@
 @import url('./base/common.css');
 
 /* components */
-@import url('./components/btn-modal.css');
+@import url('./components/button.css');
 @import url('./components/menu-navigation.css');
 @import url('./components/container.css');
 @import url('./components/socials-icon.css');
 @import url('./components/visually-hidden.css');
+@import url('./components/button-modal.css');
+@import url('./components/hover-button.css');
 
 
 
