@@ -1,1 +1,132 @@
-/*  */
+/* Hotel-hero */
+.hotel-hero-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hotel-hero-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--title-color-dark);
+    padding-bottom: 24px;
+}
+
+.hotel-hero-list-btns{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.room-btn, .prices-btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--title-color-dark);
+    background: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 0.8px solid var(--title-color-dark);
+    border-radius: 32px;
+}
+
+.hotel-hero-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-color-dark);
+}
+
+.slider-btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .hotel-hero-wrap {
+        position: relative;
+    }
+
+    .hotel-hero-title {
+        font-size: 80px;
+        line-height: 80px;
+        padding-bottom: 32px;
+    }
+
+    .hotel-hero-list-btns{
+        display: flex;
+        gap: 14px;
+        margin-bottom: 54px;
+    }
+
+    .room-btn, .prices-btn {
+        padding-left: 24px;
+        padding-right: 24px;
+        line-height: 24px;
+    }
+
+    .hotel-hero-text {
+        max-width: 338px;
+        position: absolute;
+        bottom: -36px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hotel-hero-container{
+        padding-top: 30px;
+        padding-bottom: 82px;
+        padding-right: 0;
+    }
+
+    .hotel-hero-wrap {
+        position: relative;
+        display: flex;
+    }
+
+    .hotel-hero-box {
+        width: 50%;
+        padding-top: 174px;
+    }
+
+    .hotel-hero-title {
+        font-size: 90px;
+        line-height: 90px;
+        padding-bottom: 32px;
+    }
+
+    .hotel-hero-list-btns{
+        display: flex;
+        gap: 14px;
+        margin-bottom: 0;
+    }
+
+    .room-btn, .prices-btn {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        font-size: 18px;
+    }
+
+    .hotel-hero-text {
+        position: absolute;
+        bottom: -34px;
+    }
+
+    .slider-btns {
+        position: absolute;
+        bottom: -92px;
+        right: 600px;
+        margin-right: 0;
+    }
+}

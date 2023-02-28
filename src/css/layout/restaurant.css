@@ -1,1 +1,146 @@
-/* restaurant */
+
+.restaurant-desc-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.restaurant-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--title-color-dark);
+}
+.restaurant-desc {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  max-width: 221px;
+
+  color: var(--text-color-dark);
+}
+.restaurant-img-wrapper {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 82px;
+}
+.restaurant-button-wrapper {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.book-table-btn {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--text-color-dark);
+  padding: 8px 18px 8px 18px;
+
+  background-color: transparent;
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+
+  transition: border 250ms var(--cubic), color 250ms var(--cubic),
+    background-color 250ms var(--cubic);
+}
+.book-table-btn:is(:hover, :focus) {
+  color: var(--text-color-light);
+  border: 0.8px solid #f7f7f7;
+  background-color: var(--background-color-dark);
+}
+.menu-btn {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--text-color-dark);
+  padding: 8px 18px 8px 18px;
+
+  background-color: transparent;
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+
+  transition: border 250ms var(--cubic), color 250ms var(--cubic),
+    background-color 250ms var(--cubic);
+}
+.menu-btn:is(:hover, :focus) {
+  color: var(--text-color-light);
+  border: 0.8px solid #f7f7f7;
+  background-color: var(--background-color-dark);
+}
+
+
+
+@media screen and (min-width: 768px) {
+  
+  
+  .restaurant-desc-wrapper {
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 80px;
+  }
+  .restaurant-title {
+    font-size: 68px;
+  }
+  .restaurant-desc {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 0;
+  }
+  .restaurant-img-wrapper {
+    gap: 32px;
+    margin-bottom: 108px;
+  }
+  .restaurant-button-wrapper {
+    gap: 14px;
+  }
+  .book-table-btn {
+    padding: 8px 24px 8px 24px;
+    line-height: 1.79;
+  }
+  .menu-btn {
+    padding: 8px 24px 8px 24px;
+    line-height: 1.79;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .restaurant-details .container {
+    position: relative;
+   
+  }
+  .restaurant-details {
+    padding-top: 44px;
+    padding-bottom: 113px;
+  }
+
+  .book-table-btn {
+    padding: 9px 24px 9px 24px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  .menu-btn {
+    padding: 9px 24px 9px 24px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  .restaurant-desc-wrapper {
+    padding-top: 44px;
+  }
+  .restaurant-button-wrapper {
+    position: absolute;
+    top: 44px;
+    right: 32px;
+  }
+  
+}

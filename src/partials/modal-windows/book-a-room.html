@@ -15,9 +15,10 @@
         <li class="book-room-modal-item">
           <label class="book-room-modal-label">
             <input
+              class="book-room-modal-input"
               type="text"
               name="user_name"
-              class="book-room-modal-input"
+              autocomplete="off"
               placeholder="Your name"
               required
             />Who should book a table for?
@@ -26,9 +27,10 @@
         <li class="book-room-modal-item">
           <label class="book-room-modal-label">
             <input
+              class="book-room-modal-input"
               type="tel"
               name="user_phone"
-              class="book-room-modal-input"
+              autocomplete="off"
               placeholder="+38 () "
               required
             />Phone number
@@ -37,10 +39,10 @@
         <li class="book-room-modal-item">
           <label class="book-room-modal-label">
             <span class="modal-icon-wrap">
-              <select name="check_in_day" class="book-room-modal-select">
-                <option value="1">⠀TODAY</option>
-                <option value="2">⠀WITHIN A WEEK</option>
-                <option value="3">⠀WITHIN A MONTH</option>
+              <select class="book-room-modal-select" name="check_in_day">
+                <option value="1">TODAY</option>
+                <option value="2">WITHIN A WEEK</option>
+                <option value="3">WITHIN A MONTH</option>
               </select>
               <svg class="modal-select-icon" width="20" height="20">
                 <use href="./img/icons/sprite.svg#btn-select"></use>
@@ -53,11 +55,11 @@
           <label class="book-room-modal-label modal-select-label"
             ><span class="modal-icon-wrap">
               <input
+                class="book-room-modal-input fix-margin"
                 type="date"
                 min="2010-01-01"
                 max="2050-01-01"
                 value="2023-04-25"
-                class="book-room-modal-input"
               />
               <svg class="modal-select-icon" width="20" height="20">
                 <use href="./img/icons/sprite.svg#btn-select"></use>
@@ -69,10 +71,10 @@
         <li class="book-room-modal-item">
           <label class="book-room-modal-label modal-select-label"
             ><span class="modal-icon-wrap">
-              <select name="type_of_room" class="book-room-modal-select">
-                <option value="1">⠀DOUBLE SUITE</option>
-                <option value="2">⠀TRIPLE SUITE</option>
-                <option value="3">⠀QUADRUPLE SUITE</option>
+              <select class="book-room-modal-select" name="type_of_room">
+                <option value="1">DOUBLE SUITE</option>
+                <option value="2">TRIPLE SUITE</option>
+                <option value="3">QUADRUPLE SUITE</option>
               </select>
               <svg class="modal-select-icon" width="20" height="20">
                 <use href="./img/icons/sprite.svg#btn-select"></use>
@@ -83,7 +85,7 @@
         </li>
       </ul>
       <div class="modal-button-wrap">
-        <button type="submit" class="modal-button">MAKE A RESERVATION</button>
+        <button class="modal-button" type="submit">MAKE A RESERVATION</button>
       </div>
     </form>
   </div>
