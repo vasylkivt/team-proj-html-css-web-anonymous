@@ -1,5 +1,6 @@
 .button-visible {
  position: fixed;
+ z-index: 99;
   right: 50px;
   bottom: 50px;
   transition: transform 1100ms cubic-bezier(1, 0.67, 0.44, 1.91),
