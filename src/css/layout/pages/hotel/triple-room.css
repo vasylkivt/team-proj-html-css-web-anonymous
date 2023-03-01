@@ -114,6 +114,10 @@
         margin-bottom: 0;
     }
 
+    .triple-room-wrap {
+        position: relative;
+    }
+    
     .triple-room-text-wrap {
         margin-left: 690px;
     }
@@ -135,7 +139,7 @@
         position: absolute;
         display: flex;
         gap: 12px;
-        left: 32px;
-        bottom: 152px;
+        left: 0;
+        top: 0;
     }
 }
