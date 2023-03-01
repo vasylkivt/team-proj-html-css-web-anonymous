@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- js jquery -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- main styles -->
+    
+    <script type="module" crossorigin src="/team-proj-html-css-web-anonymous/assets/data-menu-99095643.js"></script>
+    <link rel="stylesheet" href="/team-proj-html-css-web-anonymous/assets/data-menu-041caaae.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+  <div class="container header-items">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./hotel.html">Hotel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./restaurant.html">Restaurant</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link corrent" href="./room.html">Room</a>
+        </li>
+      </ul>
+    </nav>
+
+    <svg class="btns-mobile-menu" data-menu-button width="28" height="28">
+        <use class="btn-burger" href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-burger-menu"></use>
+        <use class="btn-close" href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#close-x"></use>
+      </svg>
+
+    <a class="logo" href="./index.html">
+      <span class="logo-top">Mimino</span>
+      <span class="logo-bottom">restaurant-hotel complex</span>
+    </a>
+
+    <ul class="socials-list">
+      <li class="socials-item">
+        <a
+          class="socials-link"
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://www.instagram.com/"
+        >
+          <svg class="socials-icon" width="24" height="24">
+            <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials-item">
+        <a
+          class="socials-link"
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="socials-icon" width="24" height="24">
+            <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials-item">
+        <a
+          class="socials-link"
+          href="https://twitter.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="socials-icon" width="24" height="24">
+            <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+
+    <main>
+      <section class="hero section" id="hero">
+  <div class="container hero-content">
+
+    <div class="hero-container">
+      <div class="hero-box">
+
+        <h1 class="hero-title-room animate__animated animate__fadeInDown">DOUBLE <span
+            class="hero-decoration">LUXURY</span> ROOM</h1>
+        <button class="hero-button animate__animated animate__bounceIn animate__delay-1s js-open-modal" type="button"
+          data-modal="view-prices">view
+          prices</button>
+      </div>
+
+
+
+      <div class="slider slider-container" data-aos="zoom-in-left" data-aos-duration="800" data-aos-once="true">
+
+        <div class="slider-box">
+          <picture>
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-des-1-1x-min-1fd59e42.jpg 1x, /team-proj-html-css-web-anonymous/assets/hero-slider-rest-des-1-2x-min-71d51322.jpg 2x" media="(min-width: 1440px)">
+
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-tab-1-1x-min-977df36c.jpg 1x, /team-proj-html-css-web-anonymous/assets/hero-slider-rest-tab-1-2x-min-77672ff9.jpg 2x" media="(min-width: 768px)">
+
+
+            <img src="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-mob-1-1x-min-b92a12f9.jpg" alt="slider"
+              srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-mob-1-2x-min-da4fb17e.jpg 2x">
+
+          </picture>
+        </div>
+
+        <div class="slider-box">
+          <picture>
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-des-2-1x-min-3ad11307.jpg 1x, /team-proj-html-css-web-anonymous/assets/hero-slider-rest-des-2-2x-min-05976ec4.jpg 2x"
+              media="(min-width: 1440px)">
+
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-tab-2-1x-min-326722f0.jpg 1x, /team-proj-html-css-web-anonymous/assets/hero-slider-rest-tab-2-2x-min-f28382d2.jpg 2x"
+              media="(min-width: 768px)">
+
+
+            <img src="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-mob-2-1x-min-53b94b90.jpg" alt="slider"
+              srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-mob-2-2x-min-25d8369f.jpg 2x">
+
+          </picture>
+        </div>
+
+        <div class="slider-box">
+          <picture>
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-des-3-1x-min-ecc5d029.jpg 1x, /team-proj-html-css-web-anonymous/assets/hero-slider-rest-des-3-2x-min-c49cb3f7.jpg 2x"
+              media="(min-width: 1440px)">
+
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-tab-3-1x-min-2e8d791b.jpg 1x, /team-proj-html-css-web-anonymous/assets/hero-slider-rest-tab-3-2x-min-2487f937.jpg 2x"
+              media="(min-width: 768px)">
+
+
+            <img src="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-mob-3-1x-min-0071f5ba.jpg" alt="slider"
+              srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-mob-3-2x-min-e7e423f5.jpg 2x">
+
+          </picture>
+        </div>
+
+        <div class="slider-box">
+          <picture>
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-des-4-1x-min-c92e9f15.jpg 1x, /team-proj-html-css-web-anonymous/assets/hero-slider-rest-des-4-2x-min-f0ac2869.jpg 2x"
+              media="(min-width: 1440px)">
+
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-tab-4-1x-min-0c02db07.jpg 1x, /team-proj-html-css-web-anonymous/assets/hero-slider-rest-tab-4-2x-min-fd4cb1f5.jpg 2x"
+              media="(min-width: 768px)">
+
+
+            <img src="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-mob-4-1x-min-6af29a41.jpg" alt="slider"
+              srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-mob-4-2x-min-e8e6c0c4.jpg 2x">
+
+          </picture>
+        </div>
+
+        <div class="slider-box">
+          <picture>
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-des-5-1x-min-c0b09506.jpg 1x, /team-proj-html-css-web-anonymous/assets/hero-slider-rest-des-5-2x-min-81bd0e05.jpg 2x"
+              media="(min-width: 1440px)">
+
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-tab-5-1x-min-6432e71f.jpg 1x, /team-proj-html-css-web-anonymous/assets/hero-slider-rest-tab-5-2x-min-4d028edc.jpg 2x"
+              media="(min-width: 768px)">
+
+
+            <img src="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-mob-5-1x-min-0aeea13b.jpg" alt="slider"
+              srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-mob-5-2x-min-f5d3f0ad.jpg 2x">
+
+          </picture>
+        </div>
+
+        <div class="slider-box">
+          <picture>
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-des-6-1x-min-0daf3c89.jpg 1x, /team-proj-html-css-web-anonymous/assets/hero-slider-rest-des-6-2x-min-a772418c.jpg 2x"
+              media="(min-width: 1440px)">
+
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-tab-6-1x-min-bed52274.jpg 1x, /team-proj-html-css-web-anonymous/assets/hero-slider-rest-tab-6-2x-min-11dbb048.jpg 2x"
+              media="(min-width: 768px)">
+
+
+            <img src="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-mob-6-1x-min-013e4d8f.jpg" alt="slider"
+              srcset="/team-proj-html-css-web-anonymous/assets/hero-slider-rest-mob-6-2x-min-c5b0352a.jpg 2x">
+
+          </picture>
+        </div>
+      </div>
+
+      <div class="slider-btn-wrap animate__animated animate__zoomIn">
+        <button type="button" class="slider-btn-prev">
+          <svg class="slider-btn-icon" width="12" height="12">
+            <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#button-left"></use>
+          </svg>
+
+        </button>
+
+        <button type="button" class="slider-btn-next">
+          <svg class="slider-btn-icon" width="12" height="12">
+            <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#button-right"></use>
+          </svg>
+        </button>
+
+      </div>
+    </div>
+
+
+
+
+    <p class="hero-text" data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="1000">The Mimino hotel
+      features spacious and stylish
+      double luxury rooms
+      with modern amenities for
+      a comfortable stay.</p>
+  </div>
+
+
+</section>
+      <section class="amenities section">
+  <div class="container">
+    <h2 class="visually-hidden">amenities</h2>
+    <div class="amenities-container">
+      <div class="amenities-box" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
+        <h3 class="amenities-title">General Amenities & Facilities:</h3>
+        <ul class="amenities-list">
+          <li class="amenities-item">24-hour front desk service</li>
+          <li class="amenities-item">Daily housekeeping</li>
+          <li class="amenities-item">Free Wi-Fi throughout the hotel</li>
+          <li class="amenities-item">Elevator access</li>
+          <li class="amenities-item">Luggage storage</li>
+          <li class="amenities-item">Non-smoking rooms available</li>
+          <li class="amenities-item">Meeting rooms for business and events</li>
+          <li class="amenities-item">On-site parking (surcharge)</li>
+          <li class="amenities-item">Concierge services</li>
+        </ul>
+      </div>
+
+      <div class="amenities-box" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
+
+
+        <h3 class="amenities-title">Bathroom:</h3>
+        <ul class="amenities-list">
+          <li class="amenities-item">Private bathroom with shower</li>
+          <li class="amenities-item">Complimentary toiletries</li>
+          <li class="amenities-item">Hair dryer</li>
+          <li class="amenities-item">Fresh towels daily</li>
+          <li class="amenities-item">
+            Deluxe bathrobes (in some room categories)
+          </li>
+        </ul>
+      </div>
+
+      <div class="amenities-box" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
+        <h3 class="amenities-title">Bedroom:</h3>
+        <ul class="amenities-list">
+          <li class="amenities-item">
+            Comfortable beds with high-quality linens
+          </li>
+          <li class="amenities-item">Blackout curtains</li>
+          <li class="amenities-item">
+            Climate control (air conditioning and heating)
+          </li>
+          <li class="amenities-item">Safe for valuables</li>
+          <li class="amenities-item">Writing desk and chair</li>
+          <li class="amenities-item">Flat-screen TV with cable channels</li>
+        </ul>
+      </div>
+
+      <div class="amenities-box" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
+        <h3 class="amenities-title">Kitchen:</h3>
+        <ul class="amenities-list">
+          <li class="amenities-item">
+            In-room kitchenette (in some room categories)
+          </li>
+          <li class="amenities-item">Refrigerator</li>
+          <li class="amenities-item">Microwave</li>
+          <li class="amenities-item">Electric kettle</li>
+          <li class="amenities-item">Cooking utensils and cutlery</li>
+          <li class="amenities-item">Dining table and chairs</li>
+        </ul>
+      </div>
+
+      <div class="amenities-box" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
+        <h3 class="amenities-title">Media:</h3>
+        <ul class="amenities-list">
+          <li class="amenities-item">Flat-screen TV with cable channels</li>
+          <li class="amenities-item">High-speed Wi-Fi</li>
+          <li class="amenities-item">iPod docking station</li>
+          <li class="amenities-item">Speaker system</li>
+          <li class="amenities-item">
+            Electrical outlets for charging devices.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="amenities-wrap" data-aos="fade-down" data-aos-once="true" data-aos-duration="1500">
+      <div class="amenities-content-max">
+        <div class="amenities-content-min">
+          <picture class="amenities-first-img">
+            <source srcset="/team-proj-html-css-web-anonymous/assets/amenties-des-1-1x-min-da0317de.jpg 1x, /team-proj-html-css-web-anonymous/assets/amenties-des-1-2x-min-beeb18ac.jpg 2x"
+              media="(min-width: 1440px)">
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/amenties-tab-1-1x-min-0ab58438.jpg 1x, /team-proj-html-css-web-anonymous/assets/amenties-tab-1-2x-min-8ed5626b.jpg 2x"
+              media="(min-width: 768px)">
+
+            <img src="/team-proj-html-css-web-anonymous/assets/amenties-mob-1-1x-min-27a1e387.jpg" alt="amenities" srcset="/team-proj-html-css-web-anonymous/assets/amenties-mob-1-2x-min-db8a59d5.jpg 2x" />
+          </picture>
+
+          <picture class="amenities-second-img">
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/amenties-des-2-1x-min-701e60a1.jpg 1x, /team-proj-html-css-web-anonymous/assets/amenties-des-2-2x-min-94b3b0a2.jpg 2x" media="(min-width: 1440px)">
+
+            <source srcset="/team-proj-html-css-web-anonymous/assets/amenties-tab-2-1x-min-216075ad.jpg 1x, /team-proj-html-css-web-anonymous/assets/amenties-tab-2-2x-min-d8505e96.jpg 2x" media="(min-width: 768px)">
+
+
+            <img src="/team-proj-html-css-web-anonymous/assets/amenties-mob-2-1x-min-51e186e0.jpg" alt="amenities" srcset="/team-proj-html-css-web-anonymous/assets/amenties-mob-2-2x-min-7fc220dd.jpg 2x" />
+          </picture>
+        </div>
+
+
+
+
+
+
+        <button class="amenities-button js-open-modal" data-modal="book-room" type="button" data-aos="zoom-in"
+          data-aos-duration="6000" data-aos-once="true">book a room</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- button-top -->
+      <div class="button-visible button-hidden" id="button-top">
+  <a class="button-top-link" href="#hero">
+    <svg class="button-top-icon" width="42" height="42">
+      <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#button-top"></use>
+    </svg>
+  </a>
+</div>
+
+
+      <!-- Pop up -->
+      <!-- Book room modal -->
+
+<div class="backdrop is-hidden" data-modal="book-room">
+  <div class="book-room-modal modal">
+    <button class="modal-close-btn" type="button">
+      <svg width="28" height="28">
+        <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#close-x"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">
+      book a <span class="current-font-style">room</span>
+    </h2>
+    <form class="book-room-modal-form">
+      <ul class="book-room-modal-list">
+        <li class="book-room-modal-item">
+          <label class="book-room-modal-label">
+            <input
+              class="book-room-modal-input"
+              type="text"
+              name="user_name"
+              autocomplete="off"
+              placeholder="Your name"
+              required
+            />Who should book a table for?
+          </label>
+        </li>
+        <li class="book-room-modal-item">
+          <label class="book-room-modal-label">
+            <input
+              class="book-room-modal-input"
+              type="tel"
+              name="user_phone"
+              autocomplete="off"
+              placeholder="+380 ()"
+              required
+            />Phone number
+          </label>
+        </li>
+        <li class="book-room-modal-item">
+          <label class="book-room-modal-label">
+            <span class="modal-icon-wrap">
+              <input
+                class="book-room-modal-input fix-margin book-room-modal-date-input"
+                type="text"
+                name="date-in"
+                autocomplete="off"
+                placeholder="TODAY"
+                pattern="(0[1-9]|[12][0-9]|3[01])[- ..](0[1-9]|1[012])[- ..](19|20)\d\d"
+              />
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-select"></use>
+              </svg>
+            </span>
+            Check-in date
+          </label>
+        </li>
+        <li class="book-room-modal-item">
+          <label class="book-room-modal-label modal-select-label"
+            ><span class="modal-icon-wrap">
+              <input
+                class="book-room-modal-input fix-margin book-room-modal-date-input2"
+                type="text"
+                name="date-out"
+                autocomplete="off"
+                placeholder="25/04/2023"
+                pattern="(0[1-9]|[12][0-9]|3[01])[- ..](0[1-9]|1[012])[- ..](19|20)\d\d"
+                required
+              />
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-select"></use>
+              </svg>
+            </span>
+            Check-out date</label
+          >
+        </li>
+        <li class="book-room-modal-item">
+          <label class="book-room-modal-label modal-select-label"
+            ><span class="modal-icon-wrap">
+              <select class="book-room-modal-select" name="type_of_room">
+                <option value="1">DOUBLE SUITE</option>
+                <option value="2">TRIPLE SUITE</option>
+                <option value="3">QUADRUPLE SUITE</option>
+              </select>
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-select"></use>
+              </svg>
+            </span>
+            Check-in date</label
+          >
+        </li>
+      </ul>
+      <div class="modal-button-wrap">
+        <button class="modal-button" type="submit">MAKE A RESERVATION</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+      <!--  Book a table modal -->
+
+<div class="backdrop is-hidden" data-modal="book-table">
+  <div class="book-table-modal modal">
+    <button class="modal-close-btn" type="button">
+      <svg width="28" height="28">
+        <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#close-x"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">
+      book a <span class="current-font-style">table</span>
+    </h2>
+    <form class="book-a-table-modal-form">
+      <ul class="book-a-table-modal-list">
+        <li class="book-a-table-modal-item">
+          <label class="book-a-table-modal-label">
+            <input
+              class="book-a-table-modal-input"
+              type="text"
+              name="user_name"
+              autocomplete="off"
+              placeholder="Your name"
+              required
+            />Who should book a table for?
+          </label>
+        </li>
+        <li class="book-a-table-modal-item">
+          <label class="book-a-table-modal-label">
+            <span class="modal-icon-wrap fix-margin">
+              <select class="book-a-table-modal-select" name="check_in_day" required>
+                <option value disabled selected>NUMBER OF PEOPLE</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+              </select>
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-select"></use>
+              </svg>
+            </span>
+          </label>
+        </li>
+        <li class="book-a-table-modal-item">
+          <label class="book-a-table-modal-label">
+            <span class="modal-icon-wrap">
+              <input
+                class="book-room-modal-input fix-margin book-table-modal-date-input"
+                type="text"
+                name="booking-date"
+                autocomplete="off"
+                placeholder="TODAY"
+                pattern="(0[1-9]|[12][0-9]|3[01])[- ..](0[1-9]|1[012])[- ..](19|20)\d\d"
+              />
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-select"></use>
+              </svg>
+            </span>
+            What date to book?
+          </label>
+        </li>
+        <li class="book-a-table-modal-item">
+          <label class="book-a-table-modal-label">
+            <input
+              class="book-a-table-modal-input"
+              type="tel"
+              name="user_phone"
+              autocomplete="off"
+              placeholder="+38 () "
+              required
+            />Phone number
+          </label>
+        </li>
+      </ul>
+      <div class="modal-button-wrap">
+        <button type="submit" class="modal-button">MAKE A RESERVATION</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+      <!-- Prices per room modal -->
+
+<div class="backdrop is-hidden" data-modal="view-prices">
+  <div class="prices-modal modal">
+    <button class="modal-close-btn" type="button">
+      <svg width="28" height="28">
+        <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#close-x"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">
+      prices per <span class="prices-current-font-style">room</span>
+    </h2>
+    <form class="prices-per-room-modal-form">
+      <h3 class="prices-modal-subtitle">Double suite</h3>
+      <ul class="prices-per-room-modal-list">
+        <li class="prices-per-room-modal-item">
+          <label class="prices-per-room-modal-label">
+            <span class="modal-icon-wrap">
+              <select class="prices-per-room-modal-select" name="check_in_day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+              </select>
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-select"></use>
+              </svg>
+            </span>
+            Number of nights
+          </label>
+        </li>
+        <li class="prices-per-room-modal-item">
+          <label class="prices-per-room-modal-label">
+            <input
+              class="prices-per-room-modal-input"
+              type="number"
+              name="price"
+              autocomplete="off"
+              placeholder="1000"
+              step="1000"
+              min="1000"
+              max="7000"
+            />UAH
+          </label>
+        </li>
+      </ul>
+      <div class="modal-button-wrap">
+        <button type="submit" class="modal-button">MAKE A RESERVATION</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+      <!-- mobile-menu -->
+      <div class="mobile-menu  is-close"  data-menu>
+  <nav class="mobile-menu-nav">
+    <ul class="mobile-menu-nav-list">
+      <li class="mobile-menu-nav-item">
+        <a class="mobile-menu-nav-link" href="./index.html">Home</a>
+      </li>
+      <li class="mobile-menu-nav-item">
+        <a class="mobile-menu-nav-link" href="./hotel.html">Hotel</a>
+      </li>
+      <li class="mobile-menu-nav-item">
+        <a class="mobile-menu-nav-link" href="./restaurant.html">Restaurant</a>
+      </li>
+    </ul>
+  </nav>
+  <ul class="container mobile-menu-socials-list">
+    <li class="mobile-menu-socials-item">
+      <a
+        class="mobile-menu-socials-link"
+        target="_blank"
+        rel="noreferrer noopener"
+        href="https://www.instagram.com/"
+      >
+        <svg class="socials-icon socials-icon-main" width="24" height="24">
+          <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#instagram"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="mobile-menu-socials-item">
+      <a
+        class="mobile-menu-socials-link"
+        href="https://www.facebook.com"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <svg class="socials-icon socials-icon-main" width="24" height="24">
+          <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#facebook"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="mobile-menu-socials-item">
+      <a
+        class="mobile-menu-socials-link"
+        href="https://twitter.com"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <svg class="socials-icon socials-icon-main" width="24" height="24">
+          <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#twitter"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+
+    </main>
+
+    <footer class="footer" id="footer">
+  <div class="container header-items">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./hotel.html">Hotel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./restaurant.html">Restaurant</a>
+        </li>
+      </ul>
+    </nav>
+
+    <a class="logo" href="./index.html">
+      <span class="logo-top">Mimino</span>
+      <span class="logo-bottom">restaurant-hotel complex</span>
+    </a>
+
+    <ul class="socials-list">
+      <li class="socials-item">
+        <a class="socials-link" target="_blank" rel="noreferrer noopener" href="https://www.instagram.com/">
+          <svg class="socials-icon" width="24" height="24">
+            <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials-item">
+        <a class="socials-link" href="https://www.facebook.com" target="_blank" rel="noreferrer noopener">
+          <svg class="socials-icon" width="24" height="24">
+            <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials-item">
+        <a class="socials-link" href="https://twitter.com" target="_blank" rel="noreferrer noopener">
+          <svg class="socials-icon" width="24" height="24">
+            <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+    <!-- js jquery -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- AOS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ disable: 'mobile' });
+    </script>
+
+    <!-- main js -->
+    
+  </body>
+</html>

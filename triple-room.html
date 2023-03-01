@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- js jquery -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- main styles -->
+    
+    <script type="module" crossorigin src="/team-proj-html-css-web-anonymous/assets/data-menu-99095643.js"></script>
+    <link rel="stylesheet" href="/team-proj-html-css-web-anonymous/assets/data-menu-041caaae.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+  <div class="container header-items">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./hotel.html">Hotel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./restaurant.html">Restaurant</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./room.html">Room</a>
+        </li>
+      </ul>
+    </nav>
+
+    <svg class="btns-mobile-menu" data-menu-button width="28" height="28">
+        <use class="btn-burger" href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-burger-menu"></use>
+        <use class="btn-close" href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#close-x"></use>
+      </svg>
+
+    <a class="logo" href="./index.html">
+      <span class="logo-top">Mimino</span>
+      <span class="logo-bottom">restaurant-hotel complex</span>
+    </a>
+
+    <ul class="socials-list">
+      <li class="socials-item">
+        <a
+          class="socials-link"
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://www.instagram.com/"
+        >
+          <svg class="socials-icon" width="24" height="24">
+            <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials-item">
+        <a
+          class="socials-link"
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="socials-icon" width="24" height="24">
+            <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials-item">
+        <a
+          class="socials-link"
+          href="https://twitter.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="socials-icon" width="24" height="24">
+            <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+
+    <main>
+      
+      
+
+      <!-- button-top -->
+      <div class="button-visible button-hidden" id="button-top">
+  <a class="button-top-link" href="#hero">
+    <svg class="button-top-icon" width="42" height="42">
+      <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#button-top"></use>
+    </svg>
+  </a>
+</div>
+
+
+      <!-- Pop up -->
+      <!-- Book room modal -->
+
+<div class="backdrop is-hidden" data-modal="book-room">
+  <div class="book-room-modal modal">
+    <button class="modal-close-btn" type="button">
+      <svg width="28" height="28">
+        <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#close-x"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">
+      book a <span class="current-font-style">room</span>
+    </h2>
+    <form class="book-room-modal-form">
+      <ul class="book-room-modal-list">
+        <li class="book-room-modal-item">
+          <label class="book-room-modal-label">
+            <input
+              class="book-room-modal-input"
+              type="text"
+              name="user_name"
+              autocomplete="off"
+              placeholder="Your name"
+              required
+            />Who should book a table for?
+          </label>
+        </li>
+        <li class="book-room-modal-item">
+          <label class="book-room-modal-label">
+            <input
+              class="book-room-modal-input"
+              type="tel"
+              name="user_phone"
+              autocomplete="off"
+              placeholder="+380 ()"
+              required
+            />Phone number
+          </label>
+        </li>
+        <li class="book-room-modal-item">
+          <label class="book-room-modal-label">
+            <span class="modal-icon-wrap">
+              <input
+                class="book-room-modal-input fix-margin book-room-modal-date-input"
+                type="text"
+                name="date-in"
+                autocomplete="off"
+                placeholder="TODAY"
+                pattern="(0[1-9]|[12][0-9]|3[01])[- ..](0[1-9]|1[012])[- ..](19|20)\d\d"
+              />
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-select"></use>
+              </svg>
+            </span>
+            Check-in date
+          </label>
+        </li>
+        <li class="book-room-modal-item">
+          <label class="book-room-modal-label modal-select-label"
+            ><span class="modal-icon-wrap">
+              <input
+                class="book-room-modal-input fix-margin book-room-modal-date-input2"
+                type="text"
+                name="date-out"
+                autocomplete="off"
+                placeholder="25/04/2023"
+                pattern="(0[1-9]|[12][0-9]|3[01])[- ..](0[1-9]|1[012])[- ..](19|20)\d\d"
+                required
+              />
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-select"></use>
+              </svg>
+            </span>
+            Check-out date</label
+          >
+        </li>
+        <li class="book-room-modal-item">
+          <label class="book-room-modal-label modal-select-label"
+            ><span class="modal-icon-wrap">
+              <select class="book-room-modal-select" name="type_of_room">
+                <option value="1">DOUBLE SUITE</option>
+                <option value="2">TRIPLE SUITE</option>
+                <option value="3">QUADRUPLE SUITE</option>
+              </select>
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-select"></use>
+              </svg>
+            </span>
+            Check-in date</label
+          >
+        </li>
+      </ul>
+      <div class="modal-button-wrap">
+        <button class="modal-button" type="submit">MAKE A RESERVATION</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+      <!--  Book a table modal -->
+
+<div class="backdrop is-hidden" data-modal="book-table">
+  <div class="book-table-modal modal">
+    <button class="modal-close-btn" type="button">
+      <svg width="28" height="28">
+        <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#close-x"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">
+      book a <span class="current-font-style">table</span>
+    </h2>
+    <form class="book-a-table-modal-form">
+      <ul class="book-a-table-modal-list">
+        <li class="book-a-table-modal-item">
+          <label class="book-a-table-modal-label">
+            <input
+              class="book-a-table-modal-input"
+              type="text"
+              name="user_name"
+              autocomplete="off"
+              placeholder="Your name"
+              required
+            />Who should book a table for?
+          </label>
+        </li>
+        <li class="book-a-table-modal-item">
+          <label class="book-a-table-modal-label">
+            <span class="modal-icon-wrap fix-margin">
+              <select class="book-a-table-modal-select" name="check_in_day" required>
+                <option value disabled selected>NUMBER OF PEOPLE</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+              </select>
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-select"></use>
+              </svg>
+            </span>
+          </label>
+        </li>
+        <li class="book-a-table-modal-item">
+          <label class="book-a-table-modal-label">
+            <span class="modal-icon-wrap">
+              <input
+                class="book-room-modal-input fix-margin book-table-modal-date-input"
+                type="text"
+                name="booking-date"
+                autocomplete="off"
+                placeholder="TODAY"
+                pattern="(0[1-9]|[12][0-9]|3[01])[- ..](0[1-9]|1[012])[- ..](19|20)\d\d"
+              />
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-select"></use>
+              </svg>
+            </span>
+            What date to book?
+          </label>
+        </li>
+        <li class="book-a-table-modal-item">
+          <label class="book-a-table-modal-label">
+            <input
+              class="book-a-table-modal-input"
+              type="tel"
+              name="user_phone"
+              autocomplete="off"
+              placeholder="+38 () "
+              required
+            />Phone number
+          </label>
+        </li>
+      </ul>
+      <div class="modal-button-wrap">
+        <button type="submit" class="modal-button">MAKE A RESERVATION</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+      <!-- Prices per room modal -->
+
+<div class="backdrop is-hidden" data-modal="view-prices">
+  <div class="prices-modal modal">
+    <button class="modal-close-btn" type="button">
+      <svg width="28" height="28">
+        <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#close-x"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">
+      prices per <span class="prices-current-font-style">room</span>
+    </h2>
+    <form class="prices-per-room-modal-form">
+      <h3 class="prices-modal-subtitle">Double suite</h3>
+      <ul class="prices-per-room-modal-list">
+        <li class="prices-per-room-modal-item">
+          <label class="prices-per-room-modal-label">
+            <span class="modal-icon-wrap">
+              <select class="prices-per-room-modal-select" name="check_in_day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+              </select>
+              <svg class="modal-select-icon" width="20" height="20">
+                <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#btn-select"></use>
+              </svg>
+            </span>
+            Number of nights
+          </label>
+        </li>
+        <li class="prices-per-room-modal-item">
+          <label class="prices-per-room-modal-label">
+            <input
+              class="prices-per-room-modal-input"
+              type="number"
+              name="price"
+              autocomplete="off"
+              placeholder="1000"
+              step="1000"
+              min="1000"
+              max="7000"
+            />UAH
+          </label>
+        </li>
+      </ul>
+      <div class="modal-button-wrap">
+        <button type="submit" class="modal-button">MAKE A RESERVATION</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+      <!-- mobile-menu -->
+      <div class="mobile-menu  is-close"  data-menu>
+  <nav class="mobile-menu-nav">
+    <ul class="mobile-menu-nav-list">
+      <li class="mobile-menu-nav-item">
+        <a class="mobile-menu-nav-link" href="./index.html">Home</a>
+      </li>
+      <li class="mobile-menu-nav-item">
+        <a class="mobile-menu-nav-link" href="./hotel.html">Hotel</a>
+      </li>
+      <li class="mobile-menu-nav-item">
+        <a class="mobile-menu-nav-link" href="./restaurant.html">Restaurant</a>
+      </li>
+    </ul>
+  </nav>
+  <ul class="container mobile-menu-socials-list">
+    <li class="mobile-menu-socials-item">
+      <a
+        class="mobile-menu-socials-link"
+        target="_blank"
+        rel="noreferrer noopener"
+        href="https://www.instagram.com/"
+      >
+        <svg class="socials-icon socials-icon-main" width="24" height="24">
+          <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#instagram"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="mobile-menu-socials-item">
+      <a
+        class="mobile-menu-socials-link"
+        href="https://www.facebook.com"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <svg class="socials-icon socials-icon-main" width="24" height="24">
+          <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#facebook"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="mobile-menu-socials-item">
+      <a
+        class="mobile-menu-socials-link"
+        href="https://twitter.com"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <svg class="socials-icon socials-icon-main" width="24" height="24">
+          <use href="/team-proj-html-css-web-anonymous/assets/sprite-c6c00689.svg#twitter"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+
+    </main>
+
+    <!-- <footer class="footer" id="footer">
+  <div class="container header-items">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./hotel.html">Hotel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./restaurant.html">Restaurant</a>
+        </li>
+      </ul>
+    </nav>
+
+    <a class="logo" href="./index.html">
+      <span class="logo-top">Mimino</span>
+      <span class="logo-bottom">restaurant-hotel complex</span>
+    </a>
+
+    <ul class="socials-list">
+      <li class="socials-item">
+        <a class="socials-link" target="_blank" rel="noreferrer noopener" href="https://www.instagram.com/">
+          <svg class="socials-icon" width="24" height="24">
+            <use href="./img/icons/sprite.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials-item">
+        <a class="socials-link" href="https://www.facebook.com" target="_blank" rel="noreferrer noopener">
+          <svg class="socials-icon" width="24" height="24">
+            <use href="./img/icons/sprite.svg#facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials-item">
+        <a class="socials-link" href="https://twitter.com" target="_blank" rel="noreferrer noopener">
+          <svg class="socials-icon" width="24" height="24">
+            <use href="./img/icons/sprite.svg#twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer> -->
+
+    <!-- js jquery -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- AOS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ disable: 'mobile' });
+    </script>
+
+    <!-- main js -->
+    
+  </body>
+</html>
