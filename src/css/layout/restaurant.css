@@ -25,9 +25,8 @@
   color: var(--text-color-dark);
 }
 .restaurant-img-wrapper {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 82px;
+  /* display: flex;
+  gap: 32px; */
 }
 .restaurant-button-wrapper {
   display: flex;
@@ -79,7 +78,62 @@
   background-color: var(--background-color-dark);
 }
 
+.restaurant-details-slider{
+  position: relative;
+  margin-bottom: 82px;
+}
+.restaurant-details .btn-slider-wrapper {
+  position: absolute;
+  top: 219px;
+  left: 0;
+  display: flex;
+  gap: 20px;
 
+}
+.btn-slider-left {
+  border: none;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+}
+.icon-slider-left {
+  width: 12px;
+  height: 12px;
+}
+.btn-slider-right {
+   width: 24px;
+  height: 24px;
+    border: none;
+  background-color: transparent;
+}
+.icon-slider-right {
+   width: 12px;
+  height: 12px;
+}
+
+.img-desktop{
+  width: 157px;
+  height: 201px;
+}
+
+@media screen and (max-width:767px) {
+
+ .restaurant-details .slick-track:before, .slick-track:after {
+    display: none;
+}
+  .restaurant-details .slick-track {
+  display: flex;
+  gap: 20px;
+ }
+.restaurant-details .slick-slide img {
+    display: block;
+    width: 157px;
+    height: 201px;
+}
+.restaurant-details .btn-slider-wrapper {
+  left: 0;
+}
+}
 
 @media screen and (min-width: 768px) {
   
@@ -97,10 +151,9 @@
     padding-bottom: 7px;
     margin-bottom: 0;
   }
-  .restaurant-img-wrapper {
-    gap: 32px;
-    margin-bottom: 108px;
-  }
+  .restaurant-details-slider{
+  margin-bottom: 108px;
+}
   .restaurant-button-wrapper {
     gap: 14px;
   }
@@ -112,6 +165,31 @@
     padding: 8px 24px 8px 24px;
     line-height: 1.79;
   }
+
+  .restaurant-details .slick-track {
+  display: flex;
+  gap: 32px;
+}
+
+.restaurant-details .slick-slide img {
+    display: block;
+    width: 336px;
+    height: 309px;
+}
+.restaurant-details .btn-slider-wrapper {
+  top: 336px;
+}
+.btn-slider-left{
+width: 36px;
+height: 36px;
+}
+.btn-slider-left{
+width: 36px;
+height: 36px;
+}
+ .restaurant-details .slick-track:before, .slick-track:after {
+    display: none;
+}
 }
 
 @media screen and (min-width: 1440px) {
@@ -143,4 +221,24 @@
     right: 32px;
   }
   
+  .restaurant-details .slick-slide img {
+    display: block;
+    width: 266px;
+    height: 309px;
+}
+.restaurant-details .btn-slider-wrapper {
+ bottom: 26px;
+  left: 668px;
+}
+.icon-slider-right{
+width: 15px;
+height: 15px;
+}
+.icon-slider-left{
+width: 15px;
+height: 15px;
+}
+ .restaurant-details .slick-track:before, .slick-track:after {
+    display: none;
+}
 }

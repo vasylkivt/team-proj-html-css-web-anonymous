@@ -79,3 +79,10 @@
     stroke: var(--accent-color-light);
   }
 }
+
+@media screen and (min-width:1440px) {
+  .mobile-menu{
+    display: none;
+  }
+  
+}
