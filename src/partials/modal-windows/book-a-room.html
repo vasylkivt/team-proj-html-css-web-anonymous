@@ -31,7 +31,7 @@
               type="tel"
               name="user_phone"
               autocomplete="off"
-              placeholder="+38 () "
+              placeholder="+380 ()"
               required
             />Phone number
           </label>
@@ -39,11 +39,14 @@
         <li class="book-room-modal-item">
           <label class="book-room-modal-label">
             <span class="modal-icon-wrap">
-              <select class="book-room-modal-select" name="check_in_day">
-                <option value="1">TODAY</option>
-                <option value="2">WITHIN A WEEK</option>
-                <option value="3">WITHIN A MONTH</option>
-              </select>
+              <input
+                class="book-room-modal-input fix-margin book-room-modal-date-input"
+                type="text"
+                name="date-in"
+                autocomplete="off"
+                placeholder="TODAY"
+                pattern="(0[1-9]|[12][0-9]|3[01])[- ..](0[1-9]|1[012])[- ..](19|20)\d\d"
+              />
               <svg class="modal-select-icon" width="20" height="20">
                 <use href="./img/icons/sprite.svg#btn-select"></use>
               </svg>
@@ -55,11 +58,13 @@
           <label class="book-room-modal-label modal-select-label"
             ><span class="modal-icon-wrap">
               <input
-                class="book-room-modal-input fix-margin"
-                type="date"
-                min="2010-01-01"
-                max="2050-01-01"
-                value="2023-04-25"
+                class="book-room-modal-input fix-margin book-room-modal-date-input2"
+                type="text"
+                name="date-out"
+                autocomplete="off"
+                placeholder="25/04/2023"
+                pattern="(0[1-9]|[12][0-9]|3[01])[- ..](0[1-9]|1[012])[- ..](19|20)\d\d"
+                required
               />
               <svg class="modal-select-icon" width="20" height="20">
                 <use href="./img/icons/sprite.svg#btn-select"></use>
