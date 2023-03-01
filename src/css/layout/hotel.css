@@ -13,7 +13,10 @@
   color: var(--accent-color-light);
   margin-bottom: 32px;
 }
-.title-text-common {
+.animate_fadeInDown {
+  animation-name: fadeInDown;
+}
+animate__pulse .title-text-common {
   margin-bottom: 33px;
 }
 .hotel-text {
