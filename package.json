@@ -15,8 +15,10 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "air-datepicker": "^3.3.5",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
+    "imask": "^6.4.3",
     "jquery": "^3.6.3",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"

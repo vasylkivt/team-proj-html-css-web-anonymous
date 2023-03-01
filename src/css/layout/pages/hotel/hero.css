@@ -2,6 +2,7 @@
 .hotel-hero-container{
     padding-top: 40px;
     padding-bottom: 40px;
+    padding-right: 0;
 }
 
 .hotel-hero-title {
