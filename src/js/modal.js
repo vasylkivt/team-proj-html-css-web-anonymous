@@ -1,29 +1,28 @@
-
 const openModalButtons = document.querySelectorAll('.js-open-modal');
 
 const backdropRefs = document.querySelectorAll('.backdrop');
 const closeBtnRefs = document.querySelectorAll('.modal-close-btn');
 
-openModalButtons.forEach((button) => {
-  button.addEventListener('click', function (e){
+openModalButtons.forEach(button => {
+  button.addEventListener('click', function (e) {
     e.preventDefault();
 
     const backdropName = this.getAttribute('data-modal');
-    const backdrop = document.querySelector(`.backdrop[data-modal="${backdropName}"]`)
-     
+    const backdrop = document.querySelector(
+      `.backdrop[data-modal="${backdropName}"]`
+    );
+
     backdrop.classList.remove('is-hidden');
     document.body.classList.add('modal-open');
 
     addAllEventListeners(backdrop);
-    })
-})
+  });
+});
 
 function onEscClick(event) {
-
   if (event.code === 'Escape') {
     removeAllEventListeners();
-   }
-   
+  }
 }
 
 function onBackdropClick(event) {
