@@ -103,6 +103,10 @@
         margin-top: 0;
     }
 
+    .four-seater-room-wrap {
+        position: relative;
+    }
+
     .four-seater-room-text {
         margin-bottom: 0;
     }
