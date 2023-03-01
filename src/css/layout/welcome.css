@@ -15,8 +15,13 @@
   width: 335px;
 }
 .animate_animated {
+  animation-duration: var(--animate-duration);
+  animation-fill-mode: both;
+}
+.animate__bounceIn {
   animation-name: animate__bounceIn;
 }
+
 .italic-style {
   font-style: italic;
 }
