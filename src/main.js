@@ -9,5 +9,6 @@ import './js/modal';
 import './js/scroll-header-btn-top';
 import './js/anchor-scroll';
 
+import './js/slider-restaurant-menu';
 
 
