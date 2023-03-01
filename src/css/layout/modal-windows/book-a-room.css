@@ -207,6 +207,10 @@ input[type='date']::-webkit-calendar-picker-indicator {
   background: transparent;
 }
 
+.my-date-input {
+  caret-color: transparent;
+}
+
 .modal-button-wrap {
   text-align: center;
 }
