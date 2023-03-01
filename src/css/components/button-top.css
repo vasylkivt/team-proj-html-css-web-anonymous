@@ -1,4 +1,6 @@
-.button-visible {
+
+@media screen and (min-width:768px) {
+  .button-visible {
  position: fixed;
  z-index: 99;
   right: 50px;
@@ -24,4 +26,9 @@
   border-radius: 40%;
   background-color:rgba(255, 255, 255, .3);
 }
+}
+
+
+
+
 

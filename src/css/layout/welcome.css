@@ -12,8 +12,16 @@
   text-transform: uppercase;
   color: var(--accent-color-dark);
   margin-bottom: 32px;
-  width: 335px;
+  max-width: 335px;
 }
+.animate_animated {
+  animation-duration: var(--animate-duration);
+  animation-fill-mode: both;
+}
+.animate__bounceIn {
+  animation-name: animate__bounceIn;
+}
+
 .italic-style {
   font-style: italic;
 }
@@ -32,10 +40,10 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--accent-color-dark);
-  width: 306px;
+  max-width: 306px;
 }
 .second {
-  width: 335px;
+  max-width: 335px;
 }
 @media screen and (min-width: 768px) {
   .welcome {
