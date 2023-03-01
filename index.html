@@ -34,7 +34,7 @@
 
     <!-- main styles -->
     
-    <script type="module" crossorigin src="/team-proj-html-css-web-anonymous/assets/data-menu-99095643.js"></script>
+    <script type="module" crossorigin src="/team-proj-html-css-web-anonymous/assets/data-menu-8d70246b.js"></script>
     <link rel="stylesheet" href="/team-proj-html-css-web-anonymous/assets/data-menu-041caaae.css">
   </head>
   <body>
@@ -911,6 +911,8 @@
               name="user_name"
               autocomplete="off"
               placeholder="Your name"
+              pattern="[A-Za-zА-Яа-я]{2,}"
+              title="Name must contain at least 2 letters"
               required
             />Who should book a table for?
           </label>
@@ -918,11 +920,10 @@
         <li class="book-room-modal-item">
           <label class="book-room-modal-label">
             <input
-              class="book-room-modal-input"
+              class="book-room-modal-input tel-input"
               type="tel"
               name="user_phone"
               autocomplete="off"
-              placeholder="+380 ()"
               required
             />Phone number
           </label>
@@ -1008,6 +1009,8 @@
               type="text"
               name="user_name"
               autocomplete="off"
+              pattern="[A-Za-zА-Яа-я]{2,}"
+              title="Name must contain at least 2 letters"
               placeholder="Your name"
               required
             />Who should book a table for?
@@ -1016,7 +1019,11 @@
         <li class="book-a-table-modal-item">
           <label class="book-a-table-modal-label">
             <span class="modal-icon-wrap fix-margin">
-              <select class="book-a-table-modal-select" name="check_in_day" required>
+              <select
+                class="book-a-table-modal-select"
+                name="check_in_day"
+                required
+              >
                 <option value disabled selected>NUMBER OF PEOPLE</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -1053,11 +1060,10 @@
         <li class="book-a-table-modal-item">
           <label class="book-a-table-modal-label">
             <input
-              class="book-a-table-modal-input"
+              class="book-a-table-modal-input tel-input"
               type="tel"
               name="user_phone"
               autocomplete="off"
-              placeholder="+38 () "
               required
             />Phone number
           </label>
