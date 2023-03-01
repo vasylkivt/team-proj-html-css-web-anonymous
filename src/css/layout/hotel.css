@@ -43,16 +43,6 @@
   gap: 10px;
   justify-content: center;
 }
-
-/* transition-property: background-color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.cover-button:hover,
-.cover-button:focus {
-  background-color: var(--hover-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-} */
 .common {
   font-weight: 400;
   font-size: 14px;
@@ -77,14 +67,7 @@
   background-color: var(--background-color-light);
   border: var(--background-color-dark);
 }
-.hotel-button {
-  /* width: 131px;
-  height: 34px; */
-}
-.hotel-button-second {
-  /* width: 114px;
-  height: 34px; */
-}
+
 @media screen and (min-width: 768px) {
   .hotel {
     padding-top: 44px;
@@ -151,6 +134,7 @@
     margin-bottom: 0;
   }
   .pictures-first-second {
+    gap: 0px;
   }
   .second-group {
     flex-direction: column;
