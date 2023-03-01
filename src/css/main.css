@@ -16,6 +16,7 @@
 
 /* components */
 @import url('./components/button.css');
+@import url('./components/button-top.css');
 @import url('./components/menu-navigation.css');
 @import url('./components/container.css');
 @import url('./components/socials-icon.css');
@@ -68,3 +69,10 @@
 @import url('./layout/pages/room/hero.css');
 @import url('./layout/pages/room/amenities.css');
 @import url('./layout/pages/room/footer.css');
+
+
+/* triple-room */
+/* @import url('./layout/pages/triple-room/header.css'); */
+@import url('./layout/pages/triple-room/hero.css');
+@import url('./layout/pages/triple-room/amenities.css');
+/* @import url('./layout/pages/triple-room/footer.css'); */
