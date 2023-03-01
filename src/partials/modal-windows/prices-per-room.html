@@ -16,7 +16,7 @@
         <li class="prices-per-room-modal-item">
           <label class="prices-per-room-modal-label">
             <span class="modal-icon-wrap">
-              <select class="prices-per-room-modal-select" name="check_in_day">
+              <select class="prices-per-room-modal-select" name="check_in_day" id="number-of-nights">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -34,16 +34,8 @@
         </li>
         <li class="prices-per-room-modal-item">
           <label class="prices-per-room-modal-label">
-            <input
-              class="prices-per-room-modal-input"
-              type="number"
-              name="price"
-              autocomplete="off"
-              placeholder="1000"
-              step="1000"
-              min="1000"
-              max="7000"
-            />UAH
+           <span class="prices-per-room-modal-input prices-input" id="prices">1000</span> 
+           UAH
           </label>
         </li>
       </ul>

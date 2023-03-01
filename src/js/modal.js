@@ -60,3 +60,11 @@ function removeAllEventListeners() {
   document.removeEventListener('keydown', onEscClick);
   document.body.classList.remove('modal-open');
 }
+
+// to modal-prices 
+
+let pricePerUnit = 1000;
+
+document.getElementById('number-of-nights').addEventListener('change', e => {
+  document.getElementById('prices').innerHTML = e.target.value * pricePerUnit;
+});
