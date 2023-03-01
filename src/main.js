@@ -5,6 +5,7 @@ import './js/slider-restaurant';
 
 import './js/mobile-menu';
 import './js/modal';
+import './js/imask';
 
 import './js/scroll-header-btn-top';
 import './js/anchor-scroll';

@@ -20,6 +20,8 @@
               name="user_name"
               autocomplete="off"
               placeholder="Your name"
+              pattern="[A-Za-zА-Яа-я]{2,}"
+              title="Name must contain at least 2 letters"
               required
             />Who should book a table for?
           </label>
@@ -27,11 +29,10 @@
         <li class="book-room-modal-item">
           <label class="book-room-modal-label">
             <input
-              class="book-room-modal-input"
+              class="book-room-modal-input tel-input"
               type="tel"
               name="user_phone"
               autocomplete="off"
-              placeholder="+380 ()"
               required
             />Phone number
           </label>
