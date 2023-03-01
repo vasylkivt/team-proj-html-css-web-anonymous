@@ -1,9 +1,9 @@
 /* welcome */
 .welcome {
   padding-top: 64px;
-
   padding-bottom: 64px;
 }
+
 .welcome-title {
   font-weight: 500;
   font-size: 32px;
@@ -14,10 +14,12 @@
   margin-bottom: 32px;
   max-width: 335px;
 }
+
 .animate_animated {
   animation-duration: var(--animate-duration);
   animation-fill-mode: both;
 }
+
 .animate__bounceIn {
   animation-name: animate__bounceIn;
 }
@@ -25,14 +27,17 @@
 .italic-style {
   font-style: italic;
 }
+
 .information {
   margin-bottom: 32px;
 }
+
 .welcome-list {
   display: flex;
   flex-direction: column;
   row-gap: 32px;
 }
+
 .welcome-item {
   font-weight: 400;
   font-size: 14px;
@@ -62,11 +67,11 @@
   .welcome-title {
     font-size: 36px;
     line-height: 1.1;
-    width: 434px;
+    max-width: 434px;
     margin-bottom: 50px;
   }
   .second {
-    width: 366px;
+    max-width: 366px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -86,11 +91,11 @@
     margin-right: 32px;
   }
   .welcome-item {
-    width: 437px;
+    max-width: 437px;
     margin-bottom: 0px;
   }
   .second {
-    width: 437px;
+    max-width: 437px;
   }
   .welcome-list {
     flex-direction: column;
@@ -104,7 +109,7 @@
   .welcome-title {
     font-size: 36px;
     line-height: 1.1;
-    width: 434px;
+    max-width: 434px;
     margin-bottom: 310px;
   }
 }

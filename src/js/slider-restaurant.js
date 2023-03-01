@@ -24,5 +24,11 @@ $('.slider-container-main-restaurant').slick({
         slidesToShow: 2,
       },
     },
+    {
+      breakpoint: 375,
+      settings: {
+        variableWidth: true,
+      },
+    },
   ],
 });
