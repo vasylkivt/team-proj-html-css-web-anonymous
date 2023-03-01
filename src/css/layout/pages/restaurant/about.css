@@ -1,6 +1,6 @@
 /* <!-- about --> */
 .about-a-kitchen {
-  padding: 64px 0;
+  padding-bottom: 64px;
 }
 .block-pictures-about-kitchen {
   margin-bottom: 32px;
@@ -51,12 +51,12 @@
   .about-a-kitchen-main-img {
     margin-bottom: 0px;
   }
-  
+
   .about-kitchen-text-item {
     font-size: 18px;
     line-height: 1.33;
   }
-  .about-kitchen-text{
+  .about-kitchen-text {
     font-size: 18px;
   }
 }
