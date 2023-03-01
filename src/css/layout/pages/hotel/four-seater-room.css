@@ -106,13 +106,17 @@
     .four-seater-room-text {
         margin-bottom: 0;
     }
+    
+    .four-seater-room-text-wrap {
+        position: relative;
+    }
 
     .four-seater-room-list-btns {
         position: absolute;
         display: flex;
         gap: 12px;
-        right: 32px;
-        bottom: 277px;
+        right: 0;
+        top: 0;
     }
 }
 
