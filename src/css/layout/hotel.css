@@ -13,6 +13,13 @@
   color: var(--accent-color-light);
   margin-bottom: 32px;
 }
+.animate_animated {
+  animation-duration: var(--animate-duration);
+  animation-fill-mode: both;
+}
+.animate_fadeInDown {
+  animation-name: fadeInDown;
+}
 .title-text-common {
   margin-bottom: 33px;
 }
@@ -24,6 +31,9 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--accent-color-light);
+}
+.animate__backInDown {
+  animation-name: backInDown;
 }
 .hotel-pictures {
   margin-bottom: 82px;
