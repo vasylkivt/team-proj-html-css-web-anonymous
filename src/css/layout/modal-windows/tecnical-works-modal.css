@@ -2,10 +2,10 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  padding-top: 24px;
-  padding-right: 24px;
-  padding-bottom: 40px;
-  padding-left: 24px;
+  padding-top: 80px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+  padding-left: 30px;
   width: 335px;
   height: 528px;
   transform: translate(-50%, -50%) scaleY(1);
@@ -28,7 +28,7 @@
   text-transform: uppercase;
   text-align: center;
 
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 
   color: var(--accent-color-light);
 }
@@ -40,23 +40,37 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--accent-color-light);
+  margin-bottom: 20px;
+}
+
+.number-link-wrap {
+  text-align: center;
+}
+
+.number-link {
+  display: inline-block;
+  color: var(--accent-color-light);
+  text-align: center;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .techical-modal {
     min-width: 628px;
     max-height: 476px;
-    padding-bottom: 60px;
   }
 
   .techical-title {
     font-size: 36px;
     line-height: 1.11;
-    margin-bottom: 60px;
   }
 
   .techical-text {
     font-size: 18px;
     line-height: 1.33;
+  }
+
+  .number-link {
+    max-width: 50%;
   }
 }
