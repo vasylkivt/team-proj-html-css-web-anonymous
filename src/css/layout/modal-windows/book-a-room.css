@@ -57,7 +57,16 @@ body.modal-open {
   background-color: transparent;
   stroke: var(--accent-color-light);
   border: none;
+  border-radius: 50%;
   cursor: pointer;
+  transition: transform 250ms var(--cubic), color 250ms var(--cubic),
+    background-color 250ms var(--cubic);
+}
+
+.modal-close-btn:is(:hover, :focus) {
+  background-color: var(--background-color-light);
+  stroke: var(--accent-color-dark);
+  transform: scale(1.1);
 }
 
 .modal-title {
