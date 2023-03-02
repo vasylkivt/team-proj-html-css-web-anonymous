@@ -97,6 +97,10 @@
   letter-spacing: -0.02em;
 }
 
+.prices-input {
+  display: block;
+}
+
 .prices-per-room-modal-input::placeholder {
   position: absolute;
   top: 0;

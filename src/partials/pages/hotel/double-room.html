@@ -1,7 +1,12 @@
 <section class="double-room">
   <div class="double-room-container container">
     <div class="double-room-images">
-      <picture class="double-room-img-1">
+      <picture class="double-room-img-1" data-aos="fade-up"
+      data-aos-offset="300"
+      data-aos-delay="300"
+      data-aos-easing="ease-in-sine"
+      data-aos-once="true"
+      data-aos-duration="1000">
         <source
           srcset="
             ./img/page-hotel/double-luxury-room/desktop/double-desk-1-1x-min.jpg 1x,
@@ -26,7 +31,12 @@
         />
       </picture>
 
-      <picture class="double-room-img-2">
+      <picture class="double-room-img-2" data-aos="fade-down"
+      data-aos-offset="300"
+      data-aos-delay="300"
+      data-aos-easing="ease-in-sine"
+      data-aos-once="true"
+      data-aos-duration="1000">
         <source
           srcset="
             ./img/page-hotel/double-luxury-room/desktop/double-desk-2-1x-min.jpg 1x,
@@ -51,7 +61,12 @@
         />
       </picture>
 
-      <picture class="double-room-img-3">
+      <picture class="double-room-img-3" data-aos="fade-down"
+      data-aos-offset="300"
+      data-aos-delay="300"
+      data-aos-easing="ease-in-sine"
+      data-aos-once="true"
+      data-aos-duration="1000">
         <source
           srcset="
             ./img/page-hotel/double-luxury-room/desktop/double-desk-3-1x-min.jpg 1x,
@@ -77,42 +92,49 @@
       </picture>
     </div>
 
-    <div class="double-room-text-wrap">
-      <h2 class="hotel-rooms-title">Double Luxury Room</h2>
+    <div class="double-room-wrap">
+      <div class="double-room-text-wrap">
+        <h2 class="hotel-rooms-title">Double Luxury Room</h2>
 
-      <ul class="hotel-rooms-text-list list">
-        <li class="hotel-rooms-text-item">
-          <p>
-            Experience luxury in our Double Luxury Room at Mimino Hotel. This
-            spacious room features a comfortable bed, private bathroom,
-            flat-screen TV, and high-speed Wi-Fi. Climate control, blackout
-            curtains, and soundproofing ensure a peaceful night's sleep.
-          </p>
+        <ul class="hotel-rooms-text-list list"
+        data-aos="zoom-in-right"
+        data-aos-offset="150"
+        data-aos-delay="150"
+        data-aos-once="true"
+        data-aos-duration="1000">
+          <li class="hotel-rooms-text-item">
+            <p>
+              Experience luxury in our Double Luxury Room at Mimino Hotel. This
+              spacious room features a comfortable bed, private bathroom,
+              flat-screen TV, and high-speed Wi-Fi. Climate control, blackout
+              curtains, and soundproofing ensure a peaceful night's sleep.
+            </p>
+          </li>
+          <li class="hotel-rooms-text-item">
+            <p>
+              Relax after a busy day at the writing desk or armchair. Book now
+              for a convenient and comfortable stay.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="hotel-rooms-list-btns">
+        <li class="hotel-rooms-item-btn">
+          <a href="./room.html" class="btn-modal room-btn button animate__animated animate__bounceIn animate__delay-1s dark-bg-btn">
+            More details
+          </a>
         </li>
-        <li class="hotel-rooms-text-item">
-          <p>
-            Relax after a busy day at the writing desk or armchair. Book now for
-            a convenient and comfortable stay.
-          </p>
+        <li class="hotel-rooms-item-btn">
+          <button
+            type="button"
+            class="btn-modal prices-btn button dark-bg-btn animate__animated animate__bounceIn animate__delay-1s js-open-modal"
+            data-modal="view-prices"
+          >
+            View prices
+          </button>
         </li>
       </ul>
     </div>
-
-    <ul class="hotel-rooms-list-btns">
-      <li class="hotel-rooms-item-btn">
-        <a href="./room.html" class="btn-modal room-btn button dark-bg-btn">
-          More details
-        </a>
-      </li>
-      <li class="hotel-rooms-item-btn">
-        <button
-          type="button"
-          class="btn-modal prices-btn button dark-bg-btn js-open-modal"
-          data-modal="view-prices"
-        >
-          View prices
-        </button>
-      </li>
-    </ul>
   </div>
 </section>

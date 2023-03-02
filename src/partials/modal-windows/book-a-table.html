@@ -19,6 +19,8 @@
               type="text"
               name="user_name"
               autocomplete="off"
+              pattern="[A-Za-zА-Яа-я]{2,}"
+              title="Name must contain at least 2 letters"
               placeholder="Your name"
               required
             />Who should book a table for?
@@ -27,7 +29,11 @@
         <li class="book-a-table-modal-item">
           <label class="book-a-table-modal-label">
             <span class="modal-icon-wrap fix-margin">
-              <select class="book-a-table-modal-select" name="check_in_day">
+              <select
+                class="book-a-table-modal-select"
+                name="check_in_day"
+                required
+              >
                 <option value disabled selected>NUMBER OF PEOPLE</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -46,11 +52,14 @@
         <li class="book-a-table-modal-item">
           <label class="book-a-table-modal-label">
             <span class="modal-icon-wrap">
-              <select class="book-a-table-modal-select" name="check_in_day">
-                <option value="1">TODAY</option>
-                <option value="2">WITHIN A WEEK</option>
-                <option value="3">WITHIN A MONTH</option>
-              </select>
+              <input
+                class="book-room-modal-input fix-margin my-date-input"
+                type="text"
+                name="booking-date"
+                autocomplete="off"
+                placeholder="TODAY"
+                pattern="(0[1-9]|[12][0-9]|3[01])[- ..](0[1-9]|1[012])[- ..](19|20)\d\d"
+              />
               <svg class="modal-select-icon" width="20" height="20">
                 <use href="./img/icons/sprite.svg#btn-select"></use>
               </svg>
@@ -61,11 +70,10 @@
         <li class="book-a-table-modal-item">
           <label class="book-a-table-modal-label">
             <input
-              class="book-a-table-modal-input"
+              class="book-a-table-modal-input tel-input"
               type="tel"
               name="user_phone"
               autocomplete="off"
-              placeholder="+38 () "
               required
             />Phone number
           </label>

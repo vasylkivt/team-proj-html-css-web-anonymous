@@ -108,7 +108,6 @@
 
 @media screen and (min-width: 1440px) {
     .double-room-container {
-        position: relative;
         padding-top: 100px;
         padding-bottom: 0;
     }
@@ -136,6 +135,10 @@
         margin-top: 0;
     }
 
+    .double-room-wrap {
+        position: relative;
+    }
+
     .double-room-text-wrap {
         margin-bottom: 0;
     }
@@ -157,7 +160,7 @@
         position: absolute;
         display: flex;
         gap: 12px;
-        right: 32px;
-        bottom: 224px;
+        right: 0;
+        top: 0;
     }
 }

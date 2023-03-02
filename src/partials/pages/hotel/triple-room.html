@@ -1,7 +1,12 @@
 <section class="triple-room">
   <div class="triple-room-container container">
     <div class="triple-room-images">
-      <picture class="triple-room-img-1">
+      <picture class="triple-room-img-1" data-aos="fade-down"
+      data-aos-offset="300"
+      data-aos-delay="300"
+      data-aos-easing="ease-in-sine"
+      data-aos-once="true"
+      data-aos-duration="1000">
         <source
           srcset="
             ./img/page-hotel/triple-room/desktop/triple-desk-1-1x-min.jpg 1x,
@@ -26,7 +31,12 @@
         />
       </picture>
 
-      <picture class="triple-room-img-2">
+      <picture class="triple-room-img-2" data-aos="fade-up"
+      data-aos-offset="300"
+      data-aos-delay="300"
+      data-aos-easing="ease-in-sine"
+      data-aos-once="true"
+      data-aos-duration="1000">
         <source
           srcset="
             ./img/page-hotel/triple-room/desktop/triple-desk-2-1x-min.jpg 1x,
@@ -51,7 +61,12 @@
         />
       </picture>
 
-      <picture class="triple-room-img-3">
+      <picture class="triple-room-img-3" data-aos="fade-up"
+      data-aos-offset="300"
+      data-aos-delay="300"
+      data-aos-easing="ease-in-sine"
+      data-aos-once="true"
+      data-aos-duration="1000">
         <source
           srcset="
             ./img/page-hotel/triple-room/desktop/triple-desk-3-1x-min.jpg 1x,
@@ -77,41 +92,51 @@
       </picture>
     </div>
 
-    <div class="triple-room-text-wrap">
-      <h2 class="hotel-rooms-title">Triple Room</h2>
+    <div class="triple-room-wrap">
+      <div class="triple-room-text-wrap">
+        <h2 class="hotel-rooms-title">Triple Room</h2>
 
-      <ul class="triple-room-text-list list">
-        <li class="triple-room-text-item">
-          <p>
-            Escape to our spacious Triple Room, perfect for families or groups.
-            Enjoy comfort with three beds, seating area, stunning views,
-            flat-screen TVs, Wi-Fi, and mini-fridge.
-          </p>
+        <ul class="triple-room-text-list list" data-aos="zoom-in-left"
+        data-aos-offset="150"
+        data-aos-delay="150"
+        data-aos-once="true"
+        data-aos-duration="1000">
+          <li class="triple-room-text-item">
+            <p>
+              Escape to our spacious Triple Room, perfect for families or
+              groups. Enjoy comfort with three beds, seating area, stunning
+              views, flat-screen TVs, Wi-Fi, and mini-fridge.
+            </p>
+          </li>
+          <li class="triple-room-text-item">
+            <p>
+              Rejuvenate in the en-suite bathroom with plush towels and
+              toiletries. Book now for a memorable stay.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="triple-room-list-btns">
+        <li class="triple-room-item-btn">
+          <button
+            type="button"
+            class="btn-modal room-btn button dark-bg-btn animate__animated animate__bounceIn animate__delay-1s js-open-modal"
+            data-modal="techical-modal"
+          >
+            More details
+          </button>
         </li>
-        <li class="triple-room-text-item">
-          <p>
-            Rejuvenate in the en-suite bathroom with plush towels and
-            toiletries. Book now for a memorable stay.
-          </p>
+        <li class="triple-room-item-btn">
+          <button
+            type="button"
+            class="btn-modal prices-btn button dark-bg-btn animate__animated animate__bounceIn animate__delay-1s js-open-modal"
+            data-modal="techical-modal"
+          >
+            View prices
+          </button>
         </li>
       </ul>
     </div>
-
-    <ul class="triple-room-list-btns">
-      <li class="triple-room-item-btn">
-        <a href="./room.html" class="btn-modal room-btn button dark-bg-btn">
-          More details
-        </a>
-      </li>
-      <li class="triple-room-item-btn">
-        <button
-          type="button"
-          class="btn-modal prices-btn button dark-bg-btn js-open-modal"
-          data-modal="view-prices"
-        >
-          View prices
-        </button>
-      </li>
-    </ul>
   </div>
 </section>

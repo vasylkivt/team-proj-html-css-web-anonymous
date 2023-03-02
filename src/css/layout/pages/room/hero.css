@@ -262,3 +262,8 @@
   width: 16px;
   height: 16px;
 }
+
+@media screen and (max-width: 1439px) {
+  .animate__animated {
+  }
+}

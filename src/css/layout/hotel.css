@@ -48,9 +48,9 @@
 .third-group {
   display: none;
 }
-.buttons {
+.buttons-main-hotel {
   display: flex;
-  gap: 10px;
+  gap: 14px;
   justify-content: center;
 }
 .common {
@@ -154,7 +154,7 @@
   .hotel-content {
     position: relative;
   }
-  .buttons {
+  .buttons-main-hotel {
     position: absolute;
 
     top: 15px;
