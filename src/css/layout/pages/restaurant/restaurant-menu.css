@@ -155,11 +155,15 @@
   margin-bottom: 40px;
 }
 
-.slider-btn-icon-left {
+.slider-btn-icon-right {
+  fill: var(--accent-color-light);
+}
+
+.slick-arrow.slick-disabled {
   fill: rgba(247, 247, 247, 0.3);
 }
 
-.slider-btn-icon-right {
+.slick-arrow {
   fill: var(--accent-color-light);
 }
 
@@ -223,14 +227,10 @@
     font-size: 18px;
   }
 
-  .restaurant-menu-box {
-    /* justify-content: center; */
-    /* align-items: center; */
-  }
-
   .slick-initialized .slick-slide {
     display: flex;
   }
+
   .restaurant-slider-btn-wrap {
     gap: 32px;
     margin-bottom: 40px;
@@ -243,13 +243,13 @@
   }
 
   .slider-btn-icon-left {
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
   }
 
   .slider-btn-icon-right {
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
   }
 
   .restaurant-menu-btn {
