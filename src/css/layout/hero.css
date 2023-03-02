@@ -141,10 +141,13 @@
     margin-bottom: 86px;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .hero-list-btns {
     margin: 0;
+    margin-right: 62px;
   }
+
   .hero-wrap-item {
     display: flex;
     flex-direction: row-reverse;
