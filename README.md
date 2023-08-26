@@ -1,4 +1,4 @@
-# MIMINO Hotel Website [![Netlify Status](https://api.netlify.com/api/v1/badges/40409e23-592b-4b60-8153-54dfbb13c9ee/deploy-status)](https://app.netlify.com/sites/vasylkiv-mimino/deploys) [🌐 Netlify link](https://vasylkiv-mimino.netlify.app)
+# MIMINO Hotel Website 
 ![MIMINO Hotel](assets/MIMINO.webp)
 
 MIMINO is an immersive multi-page website designed to showcase the hotel and its
