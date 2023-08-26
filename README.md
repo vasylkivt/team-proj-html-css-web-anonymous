@@ -1,113 +1,78 @@
-# Vanilla App Template
+# MIMINO Hotel Website [![Netlify Status](https://api.netlify.com/api/v1/badges/40409e23-592b-4b60-8153-54dfbb13c9ee/deploy-status)](https://app.netlify.com/sites/vasylkiv-mimino/deploys) [🌐 Netlify link](https://vasylkiv-mimino.netlify.app)
+![MIMINO Hotel](assets/MIMINO.webp)
 
-Цей проект було створено за допомогою Vite. Для знайомства та налаштування
-додаткових можливостей [звернись до документації](https://vitejs.dev/).
+MIMINO is an immersive multi-page website designed to showcase the hotel and its
+exceptional range of services, providing visitors with a captivating experience
+of its unique atmosphere.
 
-## Створення репозиторію за шаблоном
+## Table of Contents
 
-Використовуй цей репозиторій організації GoIT як шаблон для створення
-репозиторію свого проекту. Для цього натисни на кнопку `«Use this template»` і
-обери опцію `«Create a new repository»`, як показано на зображенні.
+- [Description](#description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Achievements](#achievements)
+- [Project Type](#project-type)
+- [Project Goal](#project-goal)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+## Description
 
-На наступному етапі відкриється сторінка створення нового репозиторію. Заповни
-поле його імені, переконайся, що репозиторій публічний, після чого натисни
-кнопку `«Create repository from template»`.
+Welcome to MIMINO, a multi-page website that takes you on a journey through the
+splendor of our hotel and its exceptional offerings. Immerse yourself in the
+elegance and comfort we offer, all showcased through this dynamic website.
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+## Features
 
-Після того, як репозиторій буде створено, необхідно перейти в налаштування
-створеного репозиторію на вкладку `Settings` > `Actions` > `General` як показано
-на зображенні.
+- Captivating and responsive design
+- Visually appealing animations using Animate.css
+- Clear and intuitive navigation menus
+- Seamless compatibility across various devices
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+## Technologies Used
 
-Проскроливши сторінку до самого кінця, в секції `«Workflow permissions»` обери
-опцію `«Read and write permissions»` і постав галочку в чекбоксі. Це необхідно
-для автоматизації процесу деплою проекту.
+Using HTML, CSS, and JS, we developed a visually consistent and responsive
+design, and used the Animate.css library for animation effects.
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
 
-Тепер у тебе є особистий репозиторій проекту, зі структурою файлів та папок
-репозиторію-шаблону. Далі працюй з ним, як з будь-яким іншим особистим
-репозиторієм, клонуй його собі на комп'ютер, пиши код, роби коміти та відправляй
-їх на GitHub.
+## Achievements
 
-## Підготовка до роботи
+- Utilized responsive design principles to ensure a seamless website experience across devices, increasing accessibility and user satisfaction on desktops, tablets, and smartphones.
+- Integrated various technologies and libraries, such as CSS frameworks and JS plugins, which improved the functionality and visual appeal of the website. Smart integration of resources contributed to the creation of a well-optimized and seamless platform.
+- Successful work of the development team, which led to the timely implementation of the project.
 
-1. Переконайся, що на комп'ютері встановлено LTS-версію Node.js.
-   [Скачай та встанови](https://nodejs.org/en/) її якщо необхідно.
-2. Встанови базові залежності проекту в терміналі командою `npm install`.
-3. Запусти режим розробки, виконавши в терміналі команду `npm run dev`.
-4. Перейдіть у браузері за адресою
-   [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
-   перезавантажуватись після збереження змін у файли проекту.
+## Project Type
 
-## Файли і папки
+MIMINO is a multi-page website that offers comprehensive information about the
+hotel and its services, providing potential customers with an immersive
+experience of the hotel's offerings.
 
-- Файли розмітки компонентів сторінки повинні лежати в папці `src/partials` та
-  імпортуватись до файлу `index.html`. Наприклад, файл з розміткою хедера
-  `header.html` створюємо у папці `partials` та імпортуємо в `index.html`.
-- Файли стилів повинні лежати в папці `src/css` та імпортуватись до HTML-файлів
-  сторінок. Наприклад, для `index.html` файл стилів називається `index.css`.
-- Зображення додавай до папки `src/img`. Збирач оптимізує їх, але тільки при
-  деплої продакшн версії проекту. Все це відбувається у хмарі, щоб не
-  навантажувати твій комп'ютер, тому що на слабких компʼютерах це може зайняти
-  багато часу.
+## Project Goal
 
-## Деплой
+The primary objective of this project was to establish a strong online presence
+for the hotel, showcasing its services and captivating potential customers.
 
-Продакшн версія проекту буде автоматично збиратися та деплоїтись на GitHub
-Pages, у гілку `gh-pages`, щоразу, коли оновлюється гілка `main`. Наприклад,
-після прямого пуша або прийнятого пул-реквесту. Для цього необхідно у файлі
-`package.json` змінити значення прапора `--base=/<REPO>/`, для команди `build`,
-замінивши `<REPO>` на назву свого репозиторію, та відправити зміни на GitHub.
+## Getting Started
 
-```json
-"build": "vite build --base=/<REPO>/",
-```
+To view the MIMINO Hotel website locally, follow these steps:
 
-Далі необхідно зайти в налаштування GitHub-репозиторію (`Settings` > `Pages`) та
-виставити роздачу продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо
-це не було зроблено автоматично.
+1. Clone this repository:
 
-![GitHub Pages settings](./assets/repo-settings.png)
+   ```bash
+   git clone https://github.com/vasylkivt/MIMINO.git
+   ```
 
-### Статус деплою
+2. Make sure you have the LTS version of Node.js installed on your computer.
+   [Download and install](https://nodejs.org/en/) it if needed.
+3. Install the basic project dependencies by running `npm install` in your
+   terminal.
+4. Start the development mode by executing `npm start` in your terminal.
+5. Open your web browser and go to
+   [ http://localhost:5173/](http://localhost:5173/). The page will
+   automatically refresh whenever you save changes to project files.
 
-Статус деплою крайнього коміту відображається іконкою біля його ідентифікатора.
+## Usage
 
-- **Жовтий колір** - виконується збірка та деплой проекту.
-- **Зелений колір** - деплой завершився успішно.
-- **Червоний колір** - під час лінтингу, збірки чи деплою сталася помилка.
-
-Більш детальну інформацію про статус можна переглянути натиснувши на іконку, і в
-вікні, що випадає, перейти за посиланням `Details`.
-
-![Deployment status](./assets/deploy-status.png)
-
-### Жива сторінка
-
-Через якийсь час, зазвичай кілька хвилин, живу сторінку можна буде подивитися за
-адресою, вказаною на вкладці `Settings` > `Pages` в налаштуваннях репозиторію.
-Наприклад, ось посилання на живу версію для цього репозиторію
-
-[https://goitacademy.github.io/vanilla-app-template/](https://goitacademy.github.io/vanilla-app-template/).
-
-Якщо відкриється порожня сторінка, переконайся, що у вкладці `Console` немає
-помилок пов'язаних з неправильними шляхами до CSS та JS файлів проекту
-(**404**). Швидше за все у тебе неправильне значення прапора `--base` для
-команди `build` у файлі `package.json`.
-
-## Як це працює
-
-![How it works](./assets/how-it-works.png)
-
-1. Після кожного пуша у гілку `main` GitHub-репозиторію, запускається
-   спеціальний скрипт (GitHub Action) із файлу `.github/workflows/deploy.yml`.
-2. Усі файли репозиторію копіюються на сервер, де проект ініціалізується та
-   проходить лінтинг та збірку перед деплоєм.
-3. Якщо всі кроки пройшли успішно, зібрана продакшн версія файлів проекту
-   відправляється у гілку `gh-pages`. В іншому випадку, у лозі виконання скрипта
-   буде вказано в чому проблема.
+Feel free to explore the website's pages, animations, and responsive design. You
+can also use this project as a reference for implementing similar features in
+your own projects.
