@@ -59,14 +59,14 @@ To view the MIMINO Hotel website locally, follow these steps:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/vasylkivt/MIMINO.git
+   git clone https://github.com/vasylkivt/team-proj-html-css-web-anonymous.git
    ```
 
 2. Make sure you have the LTS version of Node.js installed on your computer.
    [Download and install](https://nodejs.org/en/) it if needed.
 3. Install the basic project dependencies by running `npm install` in your
    terminal.
-4. Start the development mode by executing `npm start` in your terminal.
+4. Start the development mode by executing `npm run dev` in your terminal.
 5. Open your web browser and go to
    [ http://localhost:5173/](http://localhost:5173/). The page will
    automatically refresh whenever you save changes to project files.
